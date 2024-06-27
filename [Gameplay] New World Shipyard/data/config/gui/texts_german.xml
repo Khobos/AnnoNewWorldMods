@@ -1,0 +1,12 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2143505003</GUID>
+			<Text>Dampfschiffwerft</Text>
+		</Text>
+		<Text>
+			<GUID>2143505004</GUID>
+			<Text>Electrical Generator</Text>
+		</Text>
+	</ModOp>
+</ModOps>

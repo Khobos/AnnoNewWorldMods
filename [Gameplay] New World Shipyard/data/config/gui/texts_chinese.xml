@@ -1,0 +1,12 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2143505003</GUID>
+			<Text>蒸汽船造船厂</Text>
+		</Text>
+		<Text>
+			<GUID>2143505004</GUID>
+			<Text>Electrical Generator</Text>
+		</Text>
+	</ModOp>
+</ModOps>
