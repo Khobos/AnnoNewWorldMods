@@ -1,0 +1,1080 @@
+<ModOps>
+  <!-- PASSIVE BUFF -->
+  <Group>
+    <!-- ADD NW PUBLIC SERVICE TO POOL -->
+    <ModOp GUID="190136" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+      <Item>
+        <GUID>101257</GUID><!-- NW Marketplace -->
+      </Item>
+      <Item>
+        <GUID>101258</GUID><!-- NW Chapel -->
+      </Item>
+      <Item>
+        <GUID>101259</GUID><!-- NW Boxing -->
+      </Item>
+    </ModOp>
+    <!-- END ADD TO POOL -->
+  </Group>
+  <!-- END BUFF -->
+
+  <!-- START - ASPIRATIONAL FINANCE ACT -->
+  <Group>
+    <!-- START ADD BUFFS - ASPIRATIONAL FINANCE ACT -->
+    <ModOp GUID="269141" Type="add" Path="/Values/EffectContainer/Effects/">
+      <Item>
+        <Effect>2143505069</Effect>
+      </Item>
+    </ModOp>
+    <!-- END ADD BUFFS -->
+
+    <!-- START FORWARDBUFF - ASPIRATIONAL FINANCE ACT -->
+    <ModOp GUID="269112" Type="addNextSibling">
+      <Asset>
+        <Template>ForwardBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505069</GUID>
+            <Name>Public - New World Decree 1 Buff Forward_01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_publicly_endorsed_amenities.png</IconFilename>
+            <InfoDescription>269431</InfoDescription>
+          </Standard>
+          <Buff />
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101257</GUID>
+              </Item>
+              <Item>
+                <GUID>5164</GUID>
+              </Item>
+              <Item>
+                <GUID>101259</GUID>
+              </Item>
+              <Item>
+                <GUID>5840</GUID>
+              </Item>
+              <Item>
+                <GUID>6018</GUID>
+              </Item>
+              <Item>
+                <GUID>6264</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269112</TextOverride>
+          </Text>
+          <EffectForward>
+            <ForwardEffect>2143505070</ForwardEffect>
+            <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+            <ForwardEffectRange>40</ForwardEffectRange>
+            <ForwardEffectDistanceSource>PublicServiceDistance</ForwardEffectDistanceSource>
+          </EffectForward>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END FORWARDBUFF -->
+
+    <!-- START TOWNHALL BUFF INFOTIP -->
+    <ModOp GUID="269407" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505070</GUID>
+            <Name>Public - New World Decree 1 Buff Infotip</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_publicly_endorsed_amenities.png</IconFilename>
+            <InfoDescription>269431</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>25677</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269112</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade>
+            <InputBenefitModifier>
+              <Item>
+                <Product>120020</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>1010354</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>1010348</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>5830</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>5831</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+            </InputBenefitModifier>
+          </PopulationUpgrade>
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END BUFF INFOTIP -->
+
+    <!-- START TOWNHALLBUFF - ASPIRATIONAL FINANCE ACT -->
+    <ModOp GUID="269138" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505071</GUID>
+            <Name>Public - New World Decree 1 Buff_01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_publicly_endorsed_amenities.png</IconFilename>
+            <InfoDescription>269431</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>25677</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269112</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade>
+            <InputBenefitModifier>
+              <Item>
+                <Product>120020</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>1010354</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>6265</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>5830</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+              <Item>
+                <Product>5831</Product>
+                <AdditionalMoney>50</AdditionalMoney>
+              </Item>
+            </InputBenefitModifier>
+          </PopulationUpgrade>
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END TOWNHALLBUFF -->
+  </Group>
+  <!-- END -->
+
+  <!-- START - ARTS PATRONAGE ACT -->
+  <Group>
+    <!-- START ADD BUFFS - ARTS PATRONAGE ACT -->
+    <ModOp GUID="269142" Type="add" Path="/Values/EffectContainer/Effects/">
+      <Item>
+        <Effect>2143505072</Effect>
+      </Item>
+    </ModOp>
+    <!-- END ADD BUFFS -->
+
+    <!-- START FORWARDBUFF - ARTS PATRONAGE ACT -->
+    <ModOp GUID="269110" Type="addNextSibling">
+      <Asset>
+        <Template>ForwardBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505072</GUID>
+            <Name>Public - New World Decree 2 Buff Forward</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_patronage_of_romantics.png</IconFilename>
+            <InfoDescription>269432</InfoDescription>
+          </Standard>
+          <Buff />
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>191562</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269110</TextOverride>
+          </Text>
+          <EffectForward>
+            <ForwardEffect>2143505073</ForwardEffect>
+            <ForwardEffectRange>30</ForwardEffectRange>
+          </EffectForward>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END FORWARDBUFF -->
+    
+    <!-- START TOWNHALLBUFF - ARTS PATRONAGE ACT -->
+    <ModOp GUID="269121" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505073</GUID>
+            <Name>Public - New World Decree 2 Buff_01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_patronage_of_romantics.png</IconFilename>
+            <InfoDescription>269432</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101255</GUID>
+              </Item>
+              <Item>
+                <GUID>24793</GUID>
+              </Item>
+              <Item>
+                <GUID>1500011043</GUID>
+              </Item>
+              <Item>
+                <GUID>5405</GUID>
+              </Item>
+              <Item>
+                <GUID>6086</GUID>
+              </Item>
+              <Item>
+                <GUID>1500011090</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269110</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade>
+            <AttractivenessUpgrade>
+              <Value>3</Value>
+            </AttractivenessUpgrade>
+          </CultureUpgrade>
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END TOWNHALLBUFF -->
+  </Group>
+  <!-- END -->
+
+  <!-- START - SOCIAL WELLFARE ACT -->
+  <Group>
+    <!-- START ADD BUFFS - SOCIAL WELLFARE ACT (Public_Decree5) -->
+    <ModOp GUID="273680" Type="add" Path="/Values/EffectContainer/Effects/">
+      <Item>
+        <Effect>2143505074</Effect>
+      </Item>
+    </ModOp>
+    <!-- END ADD BUFFS -->
+
+    <!-- START FORWARDBUFF - SOCIAL WELLFARE ACT -->
+    <ModOp GUID="269111" Type="addNextSibling">
+      <Asset>
+        <Template>ForwardBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505074</GUID>
+            <Name>Public - New World Decree 4 Buff Forward_01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_welfare_state.png</IconFilename>
+            <InfoDescription>269434</InfoDescription>
+          </Standard>
+          <Buff />
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101257</GUID>
+              </Item>
+              <Item>
+                <GUID>101259</GUID>
+              </Item>
+              <Item>
+                <GUID>101258</GUID>
+              </Item>
+              <Item>
+                <GUID>6264</GUID>
+              </Item>
+              <Item>
+                <GUID>5840</GUID>
+              </Item>
+              <Item>
+                <GUID>6018</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>273680</TextOverride>
+          </Text>
+          <EffectForward>
+            <ForwardEffect>2143505075</ForwardEffect>
+            <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+            <ForwardEffectRange>40</ForwardEffectRange>
+            <ForwardEffectDistanceSource>PublicServiceDistance</ForwardEffectDistanceSource>
+          </EffectForward>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END FORWARDBUFF -->
+
+    <!-- START EFFECTCONTAINER - SOCIAL WELLFARE ACT -->
+    <ModOp GUID="269445" Type="addNextSibling">
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505075</GUID>
+            <Name>Public - New World Decree 4 Buff Container_01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_welfare_state.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>273680</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505077</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505078</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505079</Effect>
+              </Item>
+            </Effects>
+            <EffectUsedForInfoTip>2143505076</EffectUsedForInfoTip>
+          </EffectContainer>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END EFFECTCONTAINER -->
+
+    <!-- START TOWNHALL BUFF INFOTIP  -->
+    <ModOp GUID="269451" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505076</GUID>
+            <Name>Public - New World Decree 4 Buff Infotip 01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_welfare_state.png</IconFilename>
+            <InfoDescription>269434</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101257</GUID>
+              </Item>
+              <Item>
+                <GUID>101259</GUID>
+              </Item>
+              <Item>
+                <GUID>101258</GUID>
+              </Item>
+              <Item>
+                <GUID>6264</GUID>
+              </Item>
+              <Item>
+                <GUID>5840</GUID>
+              </Item>
+              <Item>
+                <GUID>6018</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>273680</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <ResidenceUpgrade />
+           <PopulationUpgrade>
+             <InputBenefitModifier>
+              <Item>
+                <Product>120020</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>1010354</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>1010348</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>5830</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>5831</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+               <Item>
+                 <Product>6265</Product>
+                 <AdditionalHappiness>5</AdditionalHappiness>
+               </Item>
+             </InputBenefitModifier>
+           </PopulationUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END -->
+
+    <!-- START TOWNHALLBUFF - SOCIAL WELLFARE ACT -->
+    <ModOp GUID="269120" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505077</GUID>
+            <Name>Public - New World Decree 4 Buff_01 Jornalero</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_welfare_state.png</IconFilename>
+            <InfoDescription>269434</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101254</GUID>
+              </Item>
+              <Item>
+                <GUID>24792</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>273680</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade>
+            <InputBenefitModifier>
+              <Item>
+                <Product>120020</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>120050</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+            </InputBenefitModifier>
+          </PopulationUpgrade>
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505078</GUID>
+            <Name>Public - New World Decree 4 Buff_02 Obrero</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_welfare_state.png</IconFilename>
+            <InfoDescription>269434</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101255</GUID>
+              </Item>
+              <Item>
+                <GUID>24793</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>273680</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade>
+            <InputBenefitModifier>
+              <Item>
+                <Product>120020</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>1010348</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>120050</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+            </InputBenefitModifier>
+          </PopulationUpgrade>
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505079</GUID>
+            <Name>Public - New World Decree 4 Buff_03 Artista</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_welfare_state.png</IconFilename>
+            <InfoDescription>269434</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>5405</GUID>
+              </Item>
+              <Item>
+                <GUID>6086</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>273680</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade>
+            <InputBenefitModifier>
+              <Item>
+                <Product>1010348</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>6265</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>5830</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+              <Item>
+                <Product>5831</Product>
+                <AdditionalHappiness>5</AdditionalHappiness>
+              </Item>
+            </InputBenefitModifier>
+          </PopulationUpgrade>
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    
+    <!-- New World Cities Support -->
+    <Group Condition="#jakob_new_world_cities">
+      <ModOp GUID="2143505077" Type="add" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+          <GUID>1500011250</GUID>
+        </Item> 
+      </ModOp>
+      <ModOp GUID="2143505078" Type="add" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+          <GUID>1500011043</GUID>
+        </Item>
+      </ModOp>
+      <ModOp GUID="2143505079" Type="add" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+          <GUID>1500011044</GUID>
+        </Item>
+        <Item>
+          <GUID>1500011090</GUID>
+        </Item>
+      </ModOp>
+    </Group>
+    <!-- END TOWNHALLBUFF -->
+  </Group>
+  <!-- END -->
+  
+  <!-- START - LATE LICENCE ACT -->
+  <Group>
+    <!-- START ADD BUFFS - LATE LICENCE ACT (Public_Decree5) -->
+    <ModOp GUID="503,279497,273694,269145" Type="add" Path="/Values/EffectContainer/Effects/">
+      <Item>
+        <Effect>2143505080</Effect>
+      </Item>
+    </ModOp>
+    <!-- END ADD BUFFS -->
+
+    <!-- START FORWARDBUFF - LATE LICENCE ACT -->
+    <ModOp GUID="269236" Type="addNextSibling">
+      <Asset>
+        <Template>ForwardBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505080</GUID>
+            <Name>Public - New World Decree 5 Buff Forward_01 TownHall</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+            <InfoDescription>269435</InfoDescription>
+          </Standard>
+          <Buff />
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <EffectForward>
+            <ForwardEffect>2143505081</ForwardEffect>
+            <ForwardEffectRange>20</ForwardEffectRange>
+          </EffectForward>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END FORWARDBUFF -->
+
+    <!-- START EFFECTCONTAINER - LATE LICENCE ACT -->
+    <ModOp GUID="269445" Type="addNextSibling">
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505081</GUID>
+            <Name>Public - New World  Decree 5 Buff Container_01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505083</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505084</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505085</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505086</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505087</Effect>
+              </Item>
+            </Effects>
+            <EffectUsedForInfoTip>2143505082</EffectUsedForInfoTip>
+          </EffectContainer>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END EFFECTCONTAINER -->
+    
+    <!-- START TOWNHALL BUFF INFOTIP -->
+    <ModOp GUID="269451" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505082</GUID>
+            <Name>Public - New World Decree 5 Buff Infotip 01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+            <InfoDescription>269435</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>25677</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010214</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>25506</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>25131</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>6600</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END BUFF INFOTIP -->
+    
+    <!-- START TOWNHALLBUFF - LATE LICENCE ACT -->
+    <ModOp GUID="269232" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505083</GUID>
+            <Name>Public - New World Decree 5 Buff_01 Jornalero</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+            <InfoDescription>269435</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101254</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>     
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505084</GUID>
+            <Name>Public - New World Decree 5 Buff_02 Obrero </Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+            <InfoDescription>269435</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101255</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010214</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>   
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505085</GUID>
+            <Name>Public - New World Decree 5 Buff_03 Artista </Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+            <InfoDescription>269435</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>5405</GUID>
+              </Item>
+              <Item>
+                <GUID>6086</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010214</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>6600</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505086</GUID>
+            <Name>Public - New World Decree 5 Buff_04 Hacienda Jornalero</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+            <InfoDescription>269435</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>24792</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>25506</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>     
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505087</GUID>
+            <Name>Public - New World Decree 5 Buff_05 Hacienda Obrero</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_common_spirits_act.png</IconFilename>
+            <InfoDescription>269435</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>24793</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269445</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010214</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>25506</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>25131</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>     
+    </ModOp>
+    <!-- New World Cities Support -->
+    <Group Condition="#jakob_new_world_cities">
+      <ModOp GUID="2143505083" Type="add" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+          <GUID>1500011250</GUID>
+        </Item> 
+      </ModOp>
+      <ModOp GUID="2143505084" Type="add" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+          <GUID>1500011043</GUID>
+        </Item>
+      </ModOp>
+      <ModOp GUID="2143505085" Type="add" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+          <GUID>1500011044</GUID>
+        </Item>
+        <Item>
+          <GUID>1500011090</GUID>
+        </Item>
+      </ModOp>
+    </Group>
+    <!-- END TOWNHALLBUFF -->
+  </Group>
+  <!-- END -->
+</ModOps>

@@ -1,0 +1,369 @@
+
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">    
+    <Text>
+      <GUID>2143505030</GUID>
+      <Text>Arts Fairs Act</Text>
+    </Text>
+    <Text>
+      <GUID>2143505031</GUID>
+      <Text>"And so, that's why we need to include these works of art in our culture!"</Text>
+    </Text>
+    <Text>
+      <GUID>2143505146</GUID>
+      <Text>Calling the Assembly</Text>
+    </Text>
+    <Text>
+      <GUID>2143505147</GUID>
+      <Text>Edicted Policies</Text>
+    </Text>
+    <Text>
+      <GUID>2143505148</GUID>
+      <Text>Promulgate texts</Text>
+    </Text>
+    <Text>
+      <GUID>2143505149</GUID>
+      <Text>Access Palace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505150</GUID>
+      <Text>Promulgate texts</Text>
+    </Text>
+    <Text>
+      <GUID>2143505151</GUID>
+      <Text>Some of the texts and decrees promulgated. You can make them official at the town halls, keep them or sell them.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505152</GUID>
+      <Text>The Assembly has finished and the enacted texts are provided.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505153</GUID>
+      <Text>Unique promulgated texts depending on the department</Text>
+    </Text>
+    <Text>
+      <GUID>2143505154</GUID>
+      <Text>Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505155</GUID>
+      <Text>Taxes, decrees and other administrative measures.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505156</GUID>
+      <Text>Text promulgated - Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505157</GUID>
+      <Text>Culture</Text>
+    </Text>
+    <Text>
+      <GUID>2143505158</GUID>
+      <Text>Pamphlets, leaflets and various posters promoting shows and festivals in your town.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505159</GUID>
+      <Text>Text promulgated - Culture</Text>
+    </Text>
+    <Text>
+      <GUID>2143505160</GUID>
+      <Text>Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505161</GUID>
+      <Text>Operating and regulatory documents, anti-pollution and safety measures.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505162</GUID>
+      <Text>Text promulgated - Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505163</GUID>
+      <Text>Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505164</GUID>
+      <Text>Some prohibitive measures, sanitary proposals, town planning and piety.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505165</GUID>
+      <Text>Text promulgated - Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505167</GUID>
+      <Text>Voting laws</Text>
+    </Text>
+    <Text>
+      <GUID>2143505168</GUID>
+      <Text>Legislation in its purest form... after the vote.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505169</GUID>
+      <Text>The vote in the Assembly has been completed and the laws to be applied are now available.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505170</GUID>
+      <Text>Unique acts depending on the department</Text>
+    </Text>
+    <Text>
+      <GUID>2143505171</GUID>
+      <Text>Voting laws</Text>
+    </Text>
+    <Text>
+      <GUID>2143505172</GUID>
+      <Text>Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505173</GUID>
+      <Text>Laws relating to taxation and public order.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505174</GUID>
+      <Text>Acts - Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505175</GUID>
+      <Text>Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505176</GUID>
+      <Text>Industrial, anti-pollution or anti-ecology legislation.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505177</GUID>
+      <Text>Acts - Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505178</GUID>
+      <Text>Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505179</GUID>
+      <Text>Laws that apply in the heart of your towns and cities... for better or for worse.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505180</GUID>
+      <Text>Acts - Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505181</GUID>
+      <Text>Reform Proposals</Text>
+    </Text>
+    <Text>
+      <GUID>2143505182</GUID>
+      <Text>Reform Proposals</Text>
+    </Text>
+    <Text>
+      <GUID>2143505183</GUID>
+      <Text>Some thinkers and industrialists want to get involved in the lives of their fellow citizens and propose reforms.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505184</GUID>
+      <Text>The reforms were adopted by the majority of the Assembly and are now applicable.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505185</GUID>
+      <Text>3 unique reform proposals depending on the department</Text>
+    </Text>
+    <Text>
+      <GUID>2143505186</GUID>
+      <Text>Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505187</GUID>
+      <Text>Philosophical essays and a different ideological current.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505188</GUID>
+      <Text>Reform Proposals - Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505189</GUID>
+      <Text>Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505190</GUID>
+      <Text>Drastic changes to facilitate the industrial revolution... while skimping on other aspects.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505191</GUID>
+      <Text>Reform Proposals - Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505192</GUID>
+      <Text>Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505193</GUID>
+      <Text>These are divisive proposals, some of which stand out.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505194</GUID>
+      <Text>Reform Proposals - Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505195</GUID>
+      <Text>Nominate officials</Text>
+    </Text>
+    <Text>
+      <GUID>2143505196</GUID>
+      <Text>Nominated Personnel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505197</GUID>
+      <Text>Departments</Text>
+    </Text>
+    <Text>
+      <GUID>2143505198</GUID>
+      <Text>Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505199</GUID>
+      <Text>It is sometimes necessary to name a number of specialists in various sectors.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505200</GUID>
+      <Text>Here is a list of specialists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505201</GUID>
+      <Text>3 unique specialists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505202</GUID>
+      <Text>Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505203</GUID>
+      <Text>Firefighters, teachers and civil servants.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505204</GUID>
+      <Text>Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505205</GUID>
+      <Text>Custom Offices</Text>
+    </Text>
+    <Text>
+      <GUID>2143505206</GUID>
+      <Text>Port officers who know their job.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505207</GUID>
+      <Text>Custom Offices</Text>
+    </Text>
+    <Text>
+      <GUID>2143505208</GUID>
+      <Text>Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505209</GUID>
+      <Text>Productivity</Text>
+    </Text>
+    <Text>
+      <GUID>2143505210</GUID>
+      <Text>Agricultural specialists, craftsmen and engineers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505211</GUID>
+      <Text>You've found the experts for your production.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505212</GUID>
+      <Text>3 unique specialists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505213</GUID>
+      <Text>Agriculture</Text>
+    </Text>
+    <Text>
+      <GUID>2143505214</GUID>
+      <Text>Agricultural experts in their fields. Your farms will be in good hands.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505215</GUID>
+      <Text>Agriculture</Text>
+    </Text>
+    <Text>
+      <GUID>2143505216</GUID>
+      <Text>Industry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505217</GUID>
+      <Text>Magnates ready to help you... or their influence.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505218</GUID>
+      <Text>Industry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505219</GUID>
+      <Text>Craftsmanship</Text>
+    </Text>
+    <Text>
+      <GUID>2143505220</GUID>
+      <Text>Cooks, dressmakers and experts in other fields.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505221</GUID>
+      <Text>Craftsmanship</Text>
+    </Text>
+    <Text>
+      <GUID>2143505222</GUID>
+      <Text>Raw Material</Text>
+    </Text>
+    <Text>
+      <GUID>2143505223</GUID>
+      <Text>Mining experts. The land and its riches hold no secrets for them.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505224</GUID>
+      <Text>Raw Material</Text>
+    </Text>
+    <Text>
+      <GUID>2143505225</GUID>
+      <Text>Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505226</GUID>
+      <Text>Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505227</GUID>
+      <Text>People ready to do anything to change the situation in your towns.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505228</GUID>
+      <Text>People from the people, for the people.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505229</GUID>
+      <Text>3 uniques specialists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505230</GUID>
+      <Text>Culture</Text>
+    </Text>
+    <Text>
+      <GUID>2143505231</GUID>
+      <Text>Some of the people involved in the cultural development of your people.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505232</GUID>
+      <Text>Culture</Text>
+    </Text>
+    <Text>
+      <GUID>2143505233</GUID>
+      <Text>Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505234</GUID>
+      <Text>Civil servants, teachers and other people who know why they get up every morning.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505235</GUID>
+      <Text>Welfare</Text>
+    </Text>
+  </ModOp>
+</ModOps>

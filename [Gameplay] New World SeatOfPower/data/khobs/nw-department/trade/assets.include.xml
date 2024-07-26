@@ -1,0 +1,37 @@
+<ModOps>
+  <!-- PASSIVE BUFF -->
+  <Group>
+    <!-- ADD TO POOL -->
+    <ModOp GUID="193865" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+      <Item>
+        <GUID>101286</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="193866" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+      <Item>
+        <GUID>101278</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="193867" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+      <Item>
+        <GUID>101330</GUID>
+      </Item>
+    </ModOp>
+    <ModOp GUID="193859" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+      <Item>
+        <GUID>101329</GUID>
+      </Item>
+      <Item>
+        <GUID>101405</GUID>
+      </Item>
+      <Item>
+        <GUID>101406</GUID>
+      </Item>
+      <Item>
+        <GUID>119281</GUID>
+      </Item>
+    </ModOp>
+    <!-- END ADD TO POOL -->
+  </Group>
+  <!-- END BUFF -->
+</ModOps>

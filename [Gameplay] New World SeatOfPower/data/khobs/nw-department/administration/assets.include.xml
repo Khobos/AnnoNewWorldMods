@@ -1,0 +1,2440 @@
+<ModOps>
+  <!-- PASSIVE Buff -->
+  <Group>
+    <!-- Replace Basebuff + paragon effect with containers (OW + NW) -->
+    <ModOp GUID="249947" Type="merge" Path="/Values/Palace/BaseMinistryEffect/">
+      <City>
+        <BaseEffect>2143505114</BaseEffect>
+        <ParagonEffects>
+          <Item>
+            <Effect>2143505115</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505116</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505117</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505118</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505119</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505120</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505121</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505122</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505123</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505124</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505125</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505126</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505127</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505128</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505129</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505130</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505131</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505132</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505133</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505134</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505135</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505136</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505137</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505138</Effect>
+          </Item>
+          <Item>
+            <Effect>2143505139</Effect>
+          </Item>
+        </ParagonEffects>
+      </City>
+    </ModOp>
+
+    <!-- Only applies OW town halls in OW regions, thus avoiding OW workforce in NW -->
+    <ModOp GUID="249961,269373,269374,269385,269386,269465,269466,269467,269468,269469,269470,269652,269653,269654,269655,269656,269657,269658,269659,269660,269661,269662,269663,269664,269665,269666" Type="merge" Path="/Values/ItemEffect/EffectTargets/">
+      <Item>
+        <GUID>100415</GUID>
+      </Item>
+    </ModOp>
+    
+    <!-- START EFFECTCONTAINER - Base Buff -->
+    <ModOp GUID="249961" Type="addNextSibling">
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505114</GUID>
+            <Name>Ministry of City Affairs - Base Buff Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>249961</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505088</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505115</GUID>
+            <Name>Ministry of City Affairs - Paragon_01 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269373</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505089</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505116</GUID>
+            <Name>Ministry of City Affairs - Paragon_02 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269374</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505090</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505117</GUID>
+            <Name>Ministry of City Affairs - Paragon_03 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269385</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505091</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505118</GUID>
+            <Name>Ministry of City Affairs - Paragon_04 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269386</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505092</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505119</GUID>
+            <Name>Ministry of City Affairs - Paragon_05 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269465</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505093</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505120</GUID>
+            <Name>Ministry of City Affairs - Paragon_06 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269466</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505094</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505121</GUID>
+            <Name>Ministry of City Affairs - Paragon_07 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269467</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505095</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505122</GUID>
+            <Name>Ministry of City Affairs - Paragon_08 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269468</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505096</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505123</GUID>
+            <Name>Ministry of City Affairs - Paragon_09 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269469</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505097</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505124</GUID>
+            <Name>Ministry of City Affairs - Paragon_10 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269470</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505098</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505125</GUID>
+            <Name>Ministry of City Affairs - Paragon_11 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269652</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505099</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505126</GUID>
+            <Name>Ministry of City Affairs - Paragon_12 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269653</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505100</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505127</GUID>
+            <Name>Ministry of City Affairs - Paragon_13 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269654</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505101</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505128</GUID>
+            <Name>Ministry of City Affairs - Paragon_14 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269655</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505102</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505129</GUID>
+            <Name>Ministry of City Affairs - Paragon_15 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269656</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505103</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505130</GUID>
+            <Name>Ministry of City Affairs - Paragon_16 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269657</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505104</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505131</GUID>
+            <Name>Ministry of City Affairs - Paragon_17 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269658</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505105</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505132</GUID>
+            <Name>Ministry of City Affairs - Paragon_18 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269659</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505106</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505133</GUID>
+            <Name>Ministry of City Affairs - Paragon_19 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269660</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505107</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505134</GUID>
+            <Name>Ministry of City Affairs - Paragon_20 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269661</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505108</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505135</GUID>
+            <Name>Ministry of City Affairs - Paragon_21 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269662</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505109</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505136</GUID>
+            <Name>Ministry of City Affairs - Paragon_22 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269663</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505110</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505137</GUID>
+            <Name>Ministry of City Affairs - Paragon_23 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269664</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505111</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505138</GUID>
+            <Name>Ministry of City Affairs - Paragon_24 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269665</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505112</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505139</GUID>
+            <Name>Ministry of City Affairs - Paragon_25 Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>269666</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505113</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END EFFECTCONTAINER -->
+
+    <!-- START TOWNHALLBUFF -->
+    <ModOp GUID="249961" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505088</GUID>
+            <Name>New World Ministry of City Affairs - Base Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>50</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505089</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_01</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>60</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>60</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>60</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505090</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_02</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>70</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>70</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>70</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505091</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_03</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>80</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>80</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>80</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505092</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_04</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>90</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>90</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>90</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505093</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_05</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>100</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>100</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>100</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505094</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_06</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>110</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>110</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>110</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505095</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_07</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>120</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>120</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>120</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505096</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_08</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>130</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>130</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>130</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505097</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_09</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>140</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>140</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>140</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505098</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_10</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>150</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>150</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>150</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505099</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_11</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>160</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>160</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>160</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505100</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_12</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>170</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>170</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>170</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505101</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_13</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>180</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>180</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>180</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505102</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_14</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>190</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>190</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>190</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505103</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_15</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>200</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>200</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>200</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505104</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_16</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>210</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>210</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>210</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505105</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_17</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>220</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>220</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>220</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505106</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_18</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>230</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>230</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>230</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505107</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_19</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>240</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>240</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>240</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505108</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_20</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>250</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>250</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>250</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505109</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_21</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>260</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>260</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>260</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505110</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_22</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>270</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>270</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>270</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505111</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_23</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>280</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>280</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>280</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505112</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_24</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>290</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>290</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>290</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505113</GUID>
+            <Name>New World Ministry of City Affairs - Paragon_25</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>249961</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade>
+            <AddDeltas>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>300</Amount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>300</Amount>
+              </Item>
+              <Item>
+                <Product>5406</Product>
+                <Amount>300</Amount>
+              </Item>
+            </AddDeltas>
+          </DistributionUpgrade>
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!--END  -->
+  </Group>
+
+  <!-- START - Dietary Education Initiative -->
+  <Group>
+    <!-- SET OW BUFF ONLY FOR OW REGIONS -->
+    <ModOp GUID="273695" Type="replace" Path="/Values/ItemEffect/EffectTargets/">
+      <Item>
+        <GUID>100415</GUID>
+      </Item>
+    </ModOp>
+    <!-- END EDIT -->
+
+    <!-- START ADD BUFFS - Dietary Education Initiative (City_Decree2) -->
+    <ModOp GUID="273691" Type="add" Path="/Values/EffectContainer/Effects/">
+      <Item>
+        <Effect>2143505020</Effect>
+      </Item>
+    </ModOp>
+    <!-- END ADD BUFFS -->
+    
+    <!-- START FORWARDBUFF - Dietary Education Initiative -->
+    <ModOp GUID="269410" Type="addNextSibling">
+      <Asset>
+        <Template>ForwardBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505020</GUID>
+            <Name>City Affairs - New World Decree 2 Buff Forward</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+            <InfoDescription>269417</InfoDescription>
+          </Standard>
+          <Buff />
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101285</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269410</TextOverride>
+          </Text>
+          <EffectForward>
+            <ForwardEffect>2143505021</ForwardEffect>
+            <ForwardEffectRange>20</ForwardEffectRange>
+          </EffectForward>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END FORWARDBUFF -->
+
+    <!-- START EFFECTCONTAINER - Dietary Education Initiative -->
+    <ModOp GUID="269410" Type="addNextSibling">
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505021</GUID>
+            <Name>City Affairs - New World Decree 2 Buff Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>269410</TextOverride>
+          </Text>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505023</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505024</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505025</Effect>
+              </Item>
+            </Effects>
+            <EffectUsedForInfoTip>2143505022</EffectUsedForInfoTip>
+          </EffectContainer>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END EFFECTCONTAINER -->
+
+    <!-- START TOWNHALL BUFF INFOTIP -->
+    <ModOp GUID="269407" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505022</GUID>
+            <Name>City Affairs - New World Decree 2 Buff Infotip</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+            <InfoDescription>269417</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>25677</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269410</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>120033</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120035</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>5381</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END BUFF INFOTIP -->
+    
+    <!-- START TOWNHALLBUFF - Dietary Education Initiative -->
+    <ModOp GUID="269409" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505023</GUID>
+            <Name>City Affairs - New World Decree 2 Buff_01 Jornaleros</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101254</GUID>
+              </Item>
+              <Item>
+                <GUID>24792</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>     
+          <Text>
+            <TextOverride>269410</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>120033</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505024</GUID>
+            <Name>City Affairs - New World Decree 2 Buff_02 Obreros</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>101255</GUID>
+              </Item>
+              <Item>
+                <GUID>24793</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269410</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>120033</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120035</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505025</GUID>
+            <Name>City Affairs - New World Decree 2 Buff_03 Artistas</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>5405</GUID>
+              </Item>
+              <Item>
+                <GUID>6086</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269410</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>120033</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120035</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>5381</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END TOWNHALLBUFF -->
+
+    <!-- Jakob's New World Cities Support -->
+    <Group Condition="#jakob_new_world_cities">
+      <ModOp GUID="269409" Type="addNextSibling">
+        <Asset>
+          <Template>TownhallBuff</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505026</GUID>
+              <Name>City Affairs - New World Decree 2 Buff_01 Terraced Jornaleros</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+            </Standard>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1500011250</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <Text>
+              <TextOverride>269410</TextOverride>
+            </Text>
+            <BuildingUpgrade />
+            <Buff />
+            <PopulationUpgrade />
+            <ResidenceUpgrade>
+              <GoodConsumptionUpgrade>
+                <Item>
+                  <ProvidedNeed>120033</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>1010213</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>1500010102</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+              </GoodConsumptionUpgrade>
+            </ResidenceUpgrade>
+            <IncidentInfectableUpgrade />
+            <CultureUpgrade />
+            <InfluenceSourceUpgrade />
+            <WarehouseUpgrade />
+            <DistributionUpgrade />
+            <ItemContainerUpgrade />
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>TownhallBuff</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505027</GUID>
+              <Name>City Affairs - New World Decree 2 Buff_02 Terraced Obreros</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+            </Standard>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1500011043</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <Text>
+              <TextOverride>269410</TextOverride>
+            </Text>
+            <BuildingUpgrade />
+            <Buff />
+            <PopulationUpgrade />
+            <ResidenceUpgrade>
+              <GoodConsumptionUpgrade>
+                <Item>
+                  <ProvidedNeed>120033</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>120035</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>1010213</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>1500010102</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+              </GoodConsumptionUpgrade>
+            </ResidenceUpgrade>
+            <IncidentInfectableUpgrade />
+            <CultureUpgrade />
+            <InfluenceSourceUpgrade />
+            <WarehouseUpgrade />
+            <DistributionUpgrade />
+            <ItemContainerUpgrade />
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>TownhallBuff</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505028</GUID>
+              <Name>City Affairs - New World Decree 2 Buff_03 Terraced Artistas</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_sustainable_eating.png</IconFilename>
+            </Standard>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1500011044</GUID>
+                </Item>
+                <Item>
+                  <GUID>1500011090</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <Text>
+              <TextOverride>269410</TextOverride>
+            </Text>
+            <BuildingUpgrade />
+            <Buff />
+            <PopulationUpgrade />
+            <ResidenceUpgrade>
+              <GoodConsumptionUpgrade>
+                <Item>
+                  <ProvidedNeed>120033</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>120035</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>5381</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>1010213</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+                <Item>
+                  <ProvidedNeed>1500010102</ProvidedNeed>
+                  <AmountInPercent>-30</AmountInPercent>
+                </Item>
+              </GoodConsumptionUpgrade>
+            </ResidenceUpgrade>
+            <IncidentInfectableUpgrade />
+            <CultureUpgrade />
+            <InfluenceSourceUpgrade />
+            <WarehouseUpgrade />
+            <DistributionUpgrade />
+            <ItemContainerUpgrade />
+          </Values>
+        </Asset>
+      </ModOp>    
+      <ModOp GUID="2143505021" Type="add" Path="/Values/EffectContainer/Effects">
+        <Item>
+          <Effect>2143505026</Effect>
+        </Item>
+        <Item>
+          <Effect>2143505027</Effect>
+        </Item>
+        <Item>
+          <Effect>2143505028</Effect>
+        </Item>
+      </ModOp>
+      <ModOp GUID="2143505022" Type="add" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <Item>
+          <ProvidedNeed>1010213</ProvidedNeed>
+          <AmountInPercent>-30</AmountInPercent>
+        </Item>
+        <Item>
+          <ProvidedNeed>1500010102</ProvidedNeed>
+          <AmountInPercent>-30</AmountInPercent>
+        </Item>
+      </ModOp>
+    </Group>
+  </Group>
+  <!-- END -->
+
+  <!-- START - Arts Fairs Act -->
+  <Group>
+    <!-- SET Science Fairs Act only for OW -->
+    <ModOp GUID="269128" Type="replace" Path="/Values/ItemEffect/EffectTargets/">
+      <Item>
+        <GUID>100415</GUID>
+      </Item>
+    </ModOp>
+    <!-- END SET -->
+
+    <!-- START ADD BUFFS - ARTS FAIRS ACT (City_Decree3) -->
+    <ModOp GUID="269174" Type="add" Path="/Values/EffectContainer/Effects/">
+      <Item>
+        <Effect>2143505029</Effect>
+      </Item>
+    </ModOp>
+    <!-- END ADD BUFFS -->
+
+    <!-- START FORWARDBUFF - ARTS FAIRS ACT -->
+    <ModOp GUID="269128" Type="addNextSibling">
+      <Asset>
+        <Template>ForwardBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505029</GUID>
+            <Name>City Affairs - New World Decree 3 Buff Forward</Name>
+            <IconFilename>data/modgraphics/ui/icon_age_of_art.png</IconFilename>
+            <InfoDescription>269418</InfoDescription>
+          </Standard>
+          <Buff />
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>190781</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269128</TextOverride>
+          </Text>
+          <EffectForward>
+            <ForwardEffect>2143505030</ForwardEffect>
+            <ForwardEffectRange>20</ForwardEffectRange>
+          </EffectForward>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END FORWARDBUFF -->
+
+    <!-- START TOWNHALLBUFF - ARTS FAIRS ACT -->
+    <ModOp GUID="269178" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505030</GUID>
+            <Name>City Affairs - New World Decree 3 Buff</Name>
+            <IconFilename>data/modgraphics/ui/icon_age_of_art.png</IconFilename>
+            <InfoDescription>2143505031</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>26030</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269128</TextOverride>
+          </Text>
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade>
+            <InfluenceAmounUpgrade>
+              <Value>1</Value>
+            </InfluenceAmounUpgrade>
+          </InfluenceSourceUpgrade>
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END TOWNHALLBUFF -->
+  </Group>
+  <!-- END -->
+</ModOps>

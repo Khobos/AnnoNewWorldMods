@@ -1,0 +1,270 @@
+<!--
+BUILDING + MENU
+###############
+2143505018 - Building
+2143505145 - Palace
+2143505019 - Menu
+
+TRIGGERS
+##########
+2143505015 - Trigger (creative)
+2143505016 - Trigger (unlock)
+2143505017 - Trigger (relock)
+
+DEPARTMENT OF ADMINISTRATION
+#############################
+2143505020 - Dietary Education Initiative - ForwardBuff
+2143505021 - Dietary Education Initiative - EffectContainer
+2143505022 - Dietary Education Initiative - InfoTip
+2143505023 - Dietary Education Initiative - TownhallBuff Jornalero
+2143505024 - Dietary Education Initiative - TownhallBuff Obrero
+2143505025 - Dietary Education Initiative - TownhallBuff Artista
+
+2143505026 - Dietary Education Initiative - TownHallBuff Terraced Jornalero - Jakob's New World Cities Support
+2143505027 - Dietary Education Initiative - TownHallBuff Terraced Obrero - Jakob's New World Cities Support
+2143505028 - Dietary Education Initiative - TownHallBuff Terraced Artista - Jakob's New World Cities Support
+
+2143505029 - Art Fairs Act - ForwardBuff
+2143505030 - Art Fairs Act - TownhallBuff
+
+2143505088 - Ministry of City Affairs - Base Buff
+2143505089 - New World Ministry of City Affairs Paragon01 - TownhallBuff
+2143505090 - New World Ministry of City Affairs Paragon02 - TownhallBuff
+2143505091 - New World Ministry of City Affairs Paragon03 - TownhallBuff
+2143505092 - New World Ministry of City Affairs Paragon04 - TownhallBuff
+2143505093 - New World Ministry of City Affairs Paragon05 - TownhallBuff
+2143505094 - New World Ministry of City Affairs Paragon06 - TownhallBuff
+2143505095 - New World Ministry of City Affairs Paragon07 - TownhallBuff
+2143505096 - New World Ministry of City Affairs Paragon08 - TownhallBuff
+2143505097 - New World Ministry of City Affairs Paragon09 - TownhallBuff
+2143505098 - New World Ministry of City Affairs Paragon10 - TownhallBuff
+2143505099 - New World Ministry of City Affairs Paragon11 - TownhallBuff
+2143505100 - New World Ministry of City Affairs Paragon12 - TownhallBuff
+2143505101 - New World Ministry of City Affairs Paragon13 - TownhallBuff
+2143505102 - New World Ministry of City Affairs Paragon14 - TownhallBuff
+2143505103 - New World Ministry of City Affairs Paragon15 - TownhallBuff
+2143505104 - New World Ministry of City Affairs Paragon16 - TownhallBuff
+2143505105 - New World Ministry of City Affairs Paragon17 - TownhallBuff
+2143505106 - New World Ministry of City Affairs Paragon18 - TownhallBuff
+2143505107 - New World Ministry of City Affairs Paragon19 - TownhallBuff
+2143505108 - New World Ministry of City Affairs Paragon20 - TownhallBuff
+2143505109 - New World Ministry of City Affairs Paragon21 - TownhallBuff
+2143505110 - New World Ministry of City Affairs Paragon22 - TownhallBuff
+2143505111 - New World Ministry of City Affairs Paragon23 - TownhallBuff
+2143505112 - New World Ministry of City Affairs Paragon24 - TownhallBuff
+2143505113 - New World Ministry of City Affairs Paragon25 - TownhallBuff
+
+2143505114 - Base Buff 
+2143505115 - Ministry of City Affairs Paragon01 Container - EffectContainer
+2143505116 - Ministry of City Affairs Paragon02 Container - EffectContainer
+2143505117 - Ministry of City Affairs Paragon03 Container - EffectContainer
+2143505118 - Ministry of City Affairs Paragon04 Container - EffectContainer
+2143505119 - Ministry of City Affairs Paragon05 Container - EffectContainer
+2143505120 - Ministry of City Affairs Paragon06 Container - EffectContainer
+2143505121 - Ministry of City Affairs Paragon07 Container - EffectContainer
+2143505122 - Ministry of City Affairs Paragon08 Container - EffectContainer
+2143505123 - Ministry of City Affairs Paragon09 Container - EffectContainer
+2143505124 - Ministry of City Affairs Paragon10 Container - EffectContainer
+2143505125 - Ministry of City Affairs Paragon11 Container - EffectContainer
+2143505126 - Ministry of City Affairs Paragon12 Container - EffectContainer
+2143505127 - Ministry of City Affairs Paragon13 Container - EffectContainer
+2143505128 - Ministry of City Affairs Paragon14 Container - EffectContainer
+2143505129 - Ministry of City Affairs Paragon15 Container - EffectContainer
+2143505130 - Ministry of City Affairs Paragon16 Container - EffectContainer
+2143505131 - Ministry of City Affairs Paragon17 Container - EffectContainer
+2143505132 - Ministry of City Affairs Paragon18 Container - EffectContainer
+2143505133 - Ministry of City Affairs Paragon19 Container - EffectContainer
+2143505134 - Ministry of City Affairs Paragon20 Container - EffectContainer
+2143505135 - Ministry of City Affairs Paragon21 Container - EffectContainer
+2143505136 - Ministry of City Affairs Paragon22 Container - EffectContainer
+2143505137 - Ministry of City Affairs Paragon23 Container - EffectContainer
+2143505138 - Ministry of City Affairs Paragon24 Container - EffectContainer
+2143505139 - Ministry of City Affairs Paragon25 Container - EffectContainer
+
+DEPARTMENT OF CULTURE
+#############################
+2143505032 - Right To Remain Act - CultureBuff
+
+DEPARTMENT OF LABOUR
+#############################
+2143505033 - Land Reform Act - ForwardBuff
+2143505034 - Land Reform Act - EffectContainer
+2143505035 - Land Reform Act - InfoTip
+2143505036 - Land Reform Act Plantains - GuildhouseBuff
+2143505037 - Land Reform Act Sugar Cane - GuildhouseBuff
+2143505038 - Land Reform Act Cotton - GuildhouseBuff
+2143505039 - Land Reform Act Caoutchouc - GuildhouseBuff
+2143505040 - Land Reform Act Spices - GuildhouseBuff
+2143505041 - Land Reform Act Corn - GuildhouseBuff
+2143505042 - Land Reform Act Coffee - GuildhouseBuff
+2143505043 - Land Reform Act Tobacco - GuildhouseBuff
+2143505044 - Land Reform Act Cocoa - GuildhouseBuff
+2143505045 - Land Reform Act Cattle - GuildhouseBuff
+2143505046 - Land Reform Act Alpaca - GuildhouseBuff
+2143505047 - Land Reform Act Nandu - GuildhouseBuff
+2143505140 - Land Reform Act Potato - GuildhouseBuff
+2143505141 - Land Reform Act Grain - GuildhouseBuff
+2143505142 - Land Reform Act Herbs - GuildhouseBuff
+2143505143 - Land Reform Act Orchids - GuildhouseBuff
+
+2143505048 - Skilled Labour Act - ForwardBuff
+2143505049 - Skilled Labour Act - EffectContainer
+2143505050 - Skilled Labour Act - InfoTip
+2143505051 - Skilled Labour Act Coal - GuildhouseBuff 
+2143505052 - Skilled Labour Act Helium - GuildhouseBuff 
+2143505053 - Skilled Labour Act Aluminium - GuildhouseBuff 
+2143505054 - Skilled Labour Act Oil - GuildhouseBuff 
+2143505055 - Skilled Labour Act Chewing Gum - GuildhouseBuff 
+2143505056 - Skilled Labour Act Ethanol - GuildhouseBuff 
+2143505057 - Skilled Labour Act Celluloid - GuildhouseBuff 
+2143505058 - Skilled Labour Act Film Reels - GuildhouseBuff 
+2143505059 - Skilled Labour Act Motor - GuildhouseBuff 
+2143505060 - Skilled Labour Act Fan - GuildhouseBuff 
+2143505061 - Skilled Labour Act Scooter - GuildhouseBuff 
+2143505062 - Skilled Labour Act Furnace - GuildhouseBuff 
+
+2143505063 - Skilled Labour Act Steelworks - GuildhouseBuff - Jakob's New World Cities Support
+
+2143505064 - Galvanic Grants Act - ForwardBuff 
+2143505065 - Galvanic Grants Act - GuildhouseBuff
+
+2143505066 - Factory Inspection Act - ForwardBuff 
+2143505067 - Factory Inspection Act - GuildhouseBuff
+
+2143505068 - Union Subsidies Act - GuildhouseBuff
+
+DEPARTMENT OF WELFARE
+#############################
+
+2143505069 - Aspirational Finance Act - ForwardBuff
+2143505070 - Aspirational Finance Act - InfoTip
+2143505071 - Aspirational Finance Act - TownhallBuff
+
+2143505072 - Arts Patronage Act - ForwardBuff
+2143505073 - Arts Patronage Act - TownhallBuff
+
+2143505074 - Social Welfare Act - ForwardBuff
+2143505075 - Social Welfare Act - EffectContainer
+2143505076 - Social Welfare Act - InfoTip
+2143505077 - Social Welfare Act - TownhallBuff01
+2143505078 - Social Welfare Act - TownhallBuff02
+2143505079 - Social Welfare Act - TownhallBuff03
+
+2143505080 - Late Licence Act - ForwardBuff
+2143505081-  Late Licence Act - EffectContainer
+2143505082 - Late Licence Act - InfoTip
+2143505083 - Late Licence Act - TownhallBuff01 
+2143505084-  Late Licence Act - TownhallBuff02 
+2143505085 - Late Licence Act - TownhallBuff03 
+2143505086 - Late Licence Act - TownhallBuff04 
+2143505087 - Late Licence Act - TownhallBuff05 
+
+MONUMENT EVENT CATEGORY
+#######################
+2143505146 - Assembly Debate - MonumentEventCategory 
+2143505195 - Nominate officials - MonumentEventCategory
+
+MONUMENT EVENT
+##############
+2143505148 - Texts Promulgated - MonumentEvent
+2143505171 - Laws votes - MonumentEvent
+2143505181 - Reform Proposals - MonumentEvent
+2143505197 - Administration - MonumentEvent
+2143505208 - Productivity - MonumentEvent
+2143505225 - Welfare - MonumentEvent
+
+MONUMENT EVENT REWARD
+#####################
+2143505154 - Texts promulgated - Administration - Reward - MonumentEventReward
+2143505157 - Texts promulgated - Culture - Reward - MonumentEventReward
+2143505160 - Texts promulgated - Productivity - Reward - MonumentEventReward
+2143505163 - Texts promulgated - Welfare - Reward - MonumentEventReward
+2143505172 - Laws votes - Administration - Reward - MonumentEventReward
+2143505175 - Laws votes - Productivity - Reward - MonumentEventReward
+2143505178 - Laws votes - Welfare - Reward - MonumentEventReward
+2143505186 - Reform Proposals - Administration - Reward - MonumentEventReward
+2143505189 - Reform Proposals - Productivity - Reward - MonumentEventReward
+2143505192 - Reform Proposals - Welfare - Reward - MonumentEventReward
+2143505202 - Departments - Administration - Reward - MonumentEventReward
+2143505205 - Departments - Custom Office - Reward - MonumentEventReward
+2143505213 - Departments - Productivity - Agriculture - Reward - MonumentEventReward
+2143505216 - Departments - Productivity - Industry - Reward - MonumentEventReward
+2143505219 - Departments - Productivity - Craftsmanship - Reward - MonumentEventReward
+
+TEXT ASSETS
+###########
+2143505147 - Edicted Policies Potential Category Rewards Infotip - Text
+2143505149 - Access Palace Infotip - Text
+2143505150 - Texts promulgated Monument ShortSizeText - Text
+2143505151 - Texts promulgated Monument RunningText - Text
+2143505152 - Texts promulgated Monument RewardText - Text
+2143505153 - Texts promulgated Monument PotentialEventReward - Text
+2143505155 - Texts promulgated - Administration - Reward Description - Text
+2143505158 - Texts promulgated - Culture - Reward Description - Text
+2143505161 - Texts promulgated - Productivity - Reward Description - Text
+2143505164 - Texts promulgated - Welfare - Reward Description - Text
+2143505167 - Laws votes Monument ShortSizeText - Text
+2143505168 - Laws votes Monument RunningText - Text
+2143505169 - Laws votes Monument RewardText - Text
+2143505170 - Laws votes Monument PotentialEventReward - Text
+2143505173 - Laws votes - Administration - Reward Description - Text
+2143505176 - Laws votes - Productivity - Reward Description - Text
+2143505179 - Laws votes - Welfare - Reward Description - Text
+2143505182 - Reform Proposals Monument ShortSizeText - Text
+2143505183 - Reform Proposals Monument RunningText - Text
+2143505184 - Reform Proposals Monument RewardText - Text
+2143505185 - Reform Proposals Monument PotentialEventReward - Text
+2143505187 - Reform Proposals - Administration - Reward Description - Text
+2143505190 - Reform Proposals - Productivity - Reward Description - Text
+2143505193 - Reform Proposals - Welfare - Reward Description - Text
+2143505198 - Administration ShortSizeText - Text
+2143505199 - Administration RunningText - Text
+2143505200 - Administration RewardText - Text
+2143505201 - Administration PotentialEventReward - Text
+2143505202 - Departments - Administration - Text
+2143505203 - Departments - Custom Offices - Text
+2143505209 - Departments - Productivity - ShortSizeName
+2143505210 - Departments - Productivity - RunningText - Text
+2143505211 - Departments - Productivity - RewardText - Text
+2143505212 - Departments - Productivity - PotentialEventReward - Text
+2143505214 - Departments - Productivity - Agriculture - Text
+2143505217 - Departments - Productivity - Industry - Text 
+2143505220 - Departments - Productivity - Craftsmanship - Text
+2143505226 - Departments - Welfare - ShortSizeName
+2143505227 - Departments - Welfare - RunningText - Text
+2143505228 - Departments - Welfare - RewardText - Text
+2143505229 - Departments - Welfare - PotentialEventReward - Text
+2143505234 - Departments - Welfare Public Description - Text
+
+REWARD POOL
+###########
+2143505156 - Texts promulgated - Administration - RewardPool
+2143505159 - Texts promulgated - Culture - RewardPool
+2143505162 - Texts promulgated - Productivity - RewardPool
+2143505165 - Texts promulgated - Welfare - RewardPool
+2143505174 - Laws votes - Administration - RewardPool
+2143505177 - Laws votes - Productivity - RewardPool
+2143505180 - Laws votes - Welfare - RewardPool
+2143505188 - Reform Proposals - Administration - RewardPool
+2143505191 - Reform Proposals - Productivity - RewardPool
+2143505194 - Reform Proposals - Welfare - RewardPool
+2143505204 - Departments - Administration - RewardPool
+2143505207 - Departments - Custom Office - RewardPool
+2143505215 - Departments - Productivity - Agriculture - RewardPool
+2143505218 - Departments - Productivity - Industry - RewardPool
+2143505221 - Departments - Productivity - Craftsmanship - RewardPool
+2143505224 - Departments - Productivity - Raw Material - RewardPool
+2143505232 - Departments - Welfare - Culture - RewardPool
+2143505235 - Departments - Welfare - Public - RewardPool
+-->
+
+<ModOps>
+  <Include File="../../../../khobs/triggers/assets.include.xml" />
+  <Include File="../../../../khobs/nw-palace/assets.include.xml" />
+  <Include File="../../../../khobs/nw-department/assets.include.xml" />
+  <Include File="../../../../khobs/nw-department/administration/assets.include.xml" />
+  <Include File="../../../../khobs/nw-department/culture/assets.include.xml" />
+  <Include File="../../../../khobs/nw-department/productivity/assets.include.xml" />
+  <Include File="../../../../khobs/nw-department/service/assets.include.xml" />
+  <Include File="../../../../khobs/nw-department/trade/assets.include.xml" />
+</ModOps>

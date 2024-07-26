@@ -1,0 +1,165 @@
+<ModOps>
+  <!-- START BUILDING - New World Palace Ministry -->
+  <ModOp GUID='101255' Type="addNextSibling">
+    <Asset>
+      <Template>PalaceMinistry</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505018</GUID>
+          <Name>New World Palace Ministry</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_local_department.png</IconFilename>
+          <ID>PalaceDepartment</ID>
+          <InfoDescription>269607</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11152</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/special/localdpt/local_department.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>PalaceMinistry</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <Mesh />
+        <Selection>
+          <GUIType>Department</GUIType>
+        </Selection>
+        <Infolayer />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>269540</Sound>
+            </Item>
+            <Item>
+              <Sound>269544</Sound>
+            </Item>
+          </ActiveSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <LogisticNode />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>5</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>PalaceMinistry</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Locked />
+        <Text>
+          <TextOverride>269602</TextOverride>
+        </Text>
+        <UpgradeList />
+        <FeedbackController>
+          <NightBehavior>HideAll</NightBehavior>
+          <IgnoreIncidents>1</IgnoreIncidents>
+        </FeedbackController>
+        <Culture />
+        <AmbientMoodProvider />
+        <PalaceMinistry />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+          </Maintenances>
+          <IncomeCategory>AdministrationBuildings</IncomeCategory>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END BUILDING - New World Palace Ministry -->
+
+  <!-- START ADD TO BUILDING MENU CONSTRUCTIONCATEGORY - Obrero (sa construction menu 2 (tier)) (25000193) -->
+  <ModOp GUID='25000194' Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='101285']">
+    <Item>
+      <Building>2143505019</Building><!-- ConstructionCategory: New World Local Department -->
+    </Item>
+  </ModOp>
+  <!-- END ADD TO BUILDING MENU CATEGORY -->
+
+  <!-- START ADD TO BUILDING MENU CONSTRUCTIONCATEGORY - City (sa construction menu culture (category)) (500150) -->
+  <ModOp GUID='500150' Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='102284']">
+    <Item>
+      <Building>2143505019</Building><!-- ConstructionCategory: New World Local Department -->
+    </Item>
+  </ModOp>
+  <!-- END ADD TO BUILDING MENU CATEGORY -->
+
+  <!-- START CONSTRUCTIONCATEGORY Menu -->
+  <ModOp GUID='269667' Type="addNextSibling">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505019</GUID>
+          <Name>New World Local Department</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_palace.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2143505145</Building>
+            </Item>
+            <Item>
+              <Building>2143505018</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>11152</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <TextOverride>249947</TextOverride>
+        </Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END CONSTRUCTIONCATEGORY Menu -->
+</ModOps>

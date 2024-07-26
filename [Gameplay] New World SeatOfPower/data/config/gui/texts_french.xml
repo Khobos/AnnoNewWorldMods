@@ -1,0 +1,13 @@
+
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">    
+    <Text>
+      <GUID>2143505030</GUID>
+      <Text>Loi sur les foires artistiques</Text>
+    </Text>
+    <Text>
+      <GUID>2143505031</GUID>
+      <Text>"C'est pourquoi nous devons inclure ces œuvres d'art dans notre culture!"</Text>
+    </Text>
+  </ModOp>
+</ModOps>
