@@ -1,13 +1,368 @@
-
 <ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">    
+  <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505030</GUID>
-      <Text>Arts Fairs Act</Text>
+      <Text>Legge sulle fiere d'arte</Text>
     </Text>
     <Text>
       <GUID>2143505031</GUID>
-      <Text>"And so, that's why we need to include these works of art in our culture!"</Text>
+      <Text>"Ed è per questo che dobbiamo includere queste opere d'arte nella nostra cultura!"</Text>
+    </Text>
+    <Text>
+      <GUID>2143505146</GUID>
+      <Text>Convocazione dell'Assemblea</Text>
+    </Text>
+    <Text>
+      <GUID>2143505147</GUID>
+      <Text>Politiche Editate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505148</GUID>
+      <Text>Promulgare i testi</Text>
+    </Text>
+    <Text>
+      <GUID>2143505149</GUID>
+      <Text>Accesso al Palazzo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505150</GUID>
+      <Text>Promulgare i testi</Text>
+    </Text>
+    <Text>
+      <GUID>2143505151</GUID>
+      <Text>Alcuni dei testi e dei decreti promulgati. Puoi renderli ufficiali presso i municipi, conservarli o venderli.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505152</GUID>
+      <Text>L'Assemblea si è conclusa e sono stati forniti i testi promulgati.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505153</GUID>
+      <Text>Testi promulgati unici a seconda del dipartimento</Text>
+    </Text>
+    <Text>
+      <GUID>2143505154</GUID>
+      <Text>Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505155</GUID>
+      <Text>Imposte, decreti e altri provvedimenti amministrativi.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505156</GUID>
+      <Text>Testo promulgato - Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505157</GUID>
+      <Text>Cultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505158</GUID>
+      <Text>Opuscoli, volantini e manifesti vari che promuovono spettacoli e festival nella tua città.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505159</GUID>
+      <Text>Testo promulgato - Cultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505160</GUID>
+      <Text>Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505161</GUID>
+      <Text>Documenti operativi e normativi, misure antinquinamento e di sicurezza.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505162</GUID>
+      <Text>Testo promulgato - Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505163</GUID>
+      <Text>Benessere</Text>
+    </Text>
+    <Text>
+      <GUID>2143505164</GUID>
+      <Text>Alcune misure proibitive, proposte sanitarie, urbanistiche e di pietà.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505165</GUID>
+      <Text>Testo promulgato - Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505167</GUID>
+      <Text>Leggi elettorali</Text>
+    </Text>
+    <Text>
+      <GUID>2143505168</GUID>
+      <Text>La legislazione nella sua forma più pura... dopo la votazione.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505169</GUID>
+      <Text>La votazione in Assemblea è stata completata e le leggi da applicare sono ora disponibili.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505170</GUID>
+      <Text>Atti unici a seconda del reparto</Text>
+    </Text>
+    <Text>
+      <GUID>2143505171</GUID>
+      <Text>Leggi elettorali</Text>
+    </Text>
+    <Text>
+      <GUID>2143505172</GUID>
+      <Text>Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505173</GUID>
+      <Text>Leggi in materia fiscale e di ordine pubblico.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505174</GUID>
+      <Text>Atti - Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505175</GUID>
+      <Text>Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505176</GUID>
+      <Text>Legislazione industriale, antinquinamento o antiecologia.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505177</GUID>
+      <Text>Acts - Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505178</GUID>
+      <Text>Benessere</Text>
+    </Text>
+    <Text>
+      <GUID>2143505179</GUID>
+      <Text>Leggi che si applicano nel cuore delle vostre città... nel bene e nel male.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505180</GUID>
+      <Text>Atti - Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505181</GUID>
+      <Text>Proposte di riforma</Text>
+    </Text>
+    <Text>
+      <GUID>2143505182</GUID>
+      <Text>Proposte di riforma</Text>
+    </Text>
+    <Text>
+      <GUID>2143505183</GUID>
+      <Text>Alcuni pensatori e industriali vogliono essere coinvolti nella vita dei loro concittadini e proporre riforme.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505184</GUID>
+      <Text>Le riforme sono state adottate dalla maggioranza dell'Assemblea e sono ora applicabili.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505185</GUID>
+      <Text>3 proposte di riforma uniche a seconda del dipartimento</Text>
+    </Text>
+    <Text>
+      <GUID>2143505186</GUID>
+      <Text>Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505187</GUID>
+      <Text>Saggi filosofici e una diversa corrente ideologica.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505188</GUID>
+      <Text>Proposte di riforma - Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505189</GUID>
+      <Text>Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505190</GUID>
+      <Text>Cambiamenti drastici per facilitare la rivoluzione industriale... mentre lesina su altri aspetti.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505191</GUID>
+      <Text>Proposte di riforma - Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505192</GUID>
+      <Text>Benessere</Text>
+    </Text>
+    <Text>
+      <GUID>2143505193</GUID>
+      <Text>Si tratta di proposte che dividono, alcune delle quali si distinguono.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505194</GUID>
+      <Text>Proposte di Riforma - Welfare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505195</GUID>
+      <Text>Nomina funzionari</Text>
+    </Text>
+    <Text>
+      <GUID>2143505196</GUID>
+      <Text>Personale nominato</Text>
+    </Text>
+    <Text>
+      <GUID>2143505197</GUID>
+      <Text>Reparti</Text>
+    </Text>
+    <Text>
+      <GUID>2143505198</GUID>
+      <Text>Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505199</GUID>
+      <Text>A volte è necessario nominare una serie di specialisti in vari settori.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505200</GUID>
+      <Text>Ecco un elenco di specialisti</Text>
+    </Text>
+    <Text>
+      <GUID>2143505201</GUID>
+      <Text>3 specialisti unici</Text>
+    </Text>
+    <Text>
+      <GUID>2143505202</GUID>
+      <Text>Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505203</GUID>
+      <Text>Vigili del fuoco, insegnanti e dipendenti pubblici.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505204</GUID>
+      <Text>Amministrazione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505205</GUID>
+      <Text>Uffici doganali</Text>
+    </Text>
+    <Text>
+      <GUID>2143505206</GUID>
+      <Text>Funzionari portuali che conoscono il loro lavoro.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505207</GUID>
+      <Text>Uffici doganali</Text>
+    </Text>
+    <Text>
+      <GUID>2143505208</GUID>
+      <Text>Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505209</GUID>
+      <Text>Produttività</Text>
+    </Text>
+    <Text>
+      <GUID>2143505210</GUID>
+      <Text>Specialisti agricoli, artigiani e ingegneri</Text>
+    </Text>
+    <Text>
+      <GUID>2143505211</GUID>
+      <Text>Hai trovato gli esperti per la tua produzione.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505212</GUID>
+      <Text>3 specialisti unici</Text>
+    </Text>
+    <Text>
+      <GUID>2143505213</GUID>
+      <Text>Agricoltura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505214</GUID>
+      <Text>Esperti agricoli nei loro campi. Le vostre aziende agricole saranno in buone mani.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505215</GUID>
+      <Text>Agricoltura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505216</GUID>
+      <Text>Industria</Text>
+    </Text>
+    <Text>
+      <GUID>2143505217</GUID>
+      <Text>Magnati pronti ad aiutarti... o la loro influenza.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505218</GUID>
+      <Text>Industria</Text>
+    </Text>
+    <Text>
+      <GUID>2143505219</GUID>
+      <Text>Artigianalità</Text>
+    </Text>
+    <Text>
+      <GUID>2143505220</GUID>
+      <Text>Cuochi, sarte ed esperti in altri settori.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505221</GUID>
+      <Text>Artigianalità</Text>
+    </Text>
+    <Text>
+      <GUID>2143505222</GUID>
+      <Text>Materia prima</Text>
+    </Text>
+    <Text>
+      <GUID>2143505223</GUID>
+      <Text>Esperti minerari. La terra e le sue ricchezze non hanno segreti per loro.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505224</GUID>
+      <Text>Materia prima</Text>
+    </Text>
+    <Text>
+      <GUID>2143505225</GUID>
+      <Text>Benessere</Text>
+    </Text>
+    <Text>
+      <GUID>2143505226</GUID>
+      <Text>Benessere</Text>
+    </Text>
+    <Text>
+      <GUID>2143505227</GUID>
+      <Text>Persone pronte a tutto per cambiare la situazione nelle vostre città.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505228</GUID>
+      <Text>Persone dal popolo, per il popolo.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505229</GUID>
+      <Text>3 specialisti unici</Text>
+    </Text>
+    <Text>
+      <GUID>2143505230</GUID>
+      <Text>Cultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505231</GUID>
+      <Text>Alcune delle persone coinvolte nello sviluppo culturale del tuo popolo.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505232</GUID>
+      <Text>Cultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505233</GUID>
+      <Text>Benessere</Text>
+    </Text>
+    <Text>
+      <GUID>2143505234</GUID>
+      <Text>Dipendenti pubblici, insegnanti e altre persone che sanno perché si alzano ogni mattina.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505235</GUID>
+      <Text>Benessere</Text>
     </Text>
   </ModOp>
 </ModOps>

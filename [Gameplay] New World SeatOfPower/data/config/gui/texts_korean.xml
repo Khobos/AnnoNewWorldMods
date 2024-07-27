@@ -1,13 +1,368 @@
-
 <ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">    
+  <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505030</GUID>
-      <Text>Arts Fairs Act</Text>
+      <Text>예술박람회법</Text>
     </Text>
     <Text>
       <GUID>2143505031</GUID>
-      <Text>"And so, that's why we need to include these works of art in our culture!"</Text>
+      <Text>"그래서 우리는 이러한 예술 작품을 우리 문화에 포함시켜야 합니다!"</Text>
+    </Text>
+    <Text>
+      <GUID>2143505146</GUID>
+      <Text>어셈블리 호출</Text>
+    </Text>
+    <Text>
+      <GUID>2143505147</GUID>
+      <Text>지시된 정책</Text>
+    </Text>
+    <Text>
+      <GUID>2143505148</GUID>
+      <Text>텍스트를 공포하다</Text>
+    </Text>
+    <Text>
+      <GUID>2143505149</GUID>
+      <Text>액세스 팰리스</Text>
+    </Text>
+    <Text>
+      <GUID>2143505150</GUID>
+      <Text>텍스트를 공포하다</Text>
+    </Text>
+    <Text>
+      <GUID>2143505151</GUID>
+      <Text>일부 문헌과 법령이 공포되었습니다. 시청에서 공식화하거나 보관하거나 판매할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505152</GUID>
+      <Text>총회가 끝났고 제정된 텍스트가 제공됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505153</GUID>
+      <Text>부서에 따라 독특한 공포 텍스트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505154</GUID>
+      <Text>관리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505155</GUID>
+      <Text>세금, 법령 및 기타 행정 조치.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505156</GUID>
+      <Text>공포된 텍스트 - 행정</Text>
+    </Text>
+    <Text>
+      <GUID>2143505157</GUID>
+      <Text>문화</Text>
+    </Text>
+    <Text>
+      <GUID>2143505158</GUID>
+      <Text>팸플릿, 전단지 및 마을의 쇼와 축제를 홍보하는 다양한 포스터.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505159</GUID>
+      <Text>공표된 텍스트 - 문화</Text>
+    </Text>
+    <Text>
+      <GUID>2143505160</GUID>
+      <Text>생산력</Text>
+    </Text>
+    <Text>
+      <GUID>2143505161</GUID>
+      <Text>운영 및 규제 문서, 오염 방지 및 안전 조치.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505162</GUID>
+      <Text>텍스트 공포 - 생산성</Text>
+    </Text>
+    <Text>
+      <GUID>2143505163</GUID>
+      <Text>복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505164</GUID>
+      <Text>일부 금지 조치, 위생 제안, 마을 계획 및 경건.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505165</GUID>
+      <Text>공포된 텍스트 - 복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505167</GUID>
+      <Text>투표법</Text>
+    </Text>
+    <Text>
+      <GUID>2143505168</GUID>
+      <Text>가장 순수한 형태의 입법... 투표 후.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505169</GUID>
+      <Text>국회에서의 표결은 완료되었고, 이제 적용될 법률을 사용할 수 있게 되었습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505170</GUID>
+      <Text>부서에 따른 독특한 행위</Text>
+    </Text>
+    <Text>
+      <GUID>2143505171</GUID>
+      <Text>투표법</Text>
+    </Text>
+    <Text>
+      <GUID>2143505172</GUID>
+      <Text>관리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505173</GUID>
+      <Text>조세 및 공공 질서에 관한 법률.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505174</GUID>
+      <Text>사도행전 - 행정</Text>
+    </Text>
+    <Text>
+      <GUID>2143505175</GUID>
+      <Text>생산력</Text>
+    </Text>
+    <Text>
+      <GUID>2143505176</GUID>
+      <Text>산업, 오염 방지 또는 생태 방지 법률.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505177</GUID>
+      <Text>행위 - 생산성</Text>
+    </Text>
+    <Text>
+      <GUID>2143505178</GUID>
+      <Text>복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505179</GUID>
+      <Text>여러분의 마을과 도시의 중심부에 적용되는 법률... 좋든 나쁘든.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505180</GUID>
+      <Text>사도행전 - 복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505181</GUID>
+      <Text>개혁 제안</Text>
+    </Text>
+    <Text>
+      <GUID>2143505182</GUID>
+      <Text>개혁 제안</Text>
+    </Text>
+    <Text>
+      <GUID>2143505183</GUID>
+      <Text>일부 사상가와 기업가들은 동료 시민들의 생활에 관여하고 개혁을 제안하기를 원합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505184</GUID>
+      <Text>이 개혁안은 의회의 대다수에 의해 채택되었으며 현재 적용되고 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505185</GUID>
+      <Text>부서에 따른 3가지 독특한 개혁 제안</Text>
+    </Text>
+    <Text>
+      <GUID>2143505186</GUID>
+      <Text>관리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505187</GUID>
+      <Text>철학적 에세이와 다른 이데올로기적 흐름.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505188</GUID>
+      <Text>개혁 제안 - 행정</Text>
+    </Text>
+    <Text>
+      <GUID>2143505189</GUID>
+      <Text>생산력</Text>
+    </Text>
+    <Text>
+      <GUID>2143505190</GUID>
+      <Text>산업 혁명을 촉진하기 위한 급격한 변화... 다른 측면을 인색하게하면서.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505191</GUID>
+      <Text>개혁 제안 - 생산성</Text>
+    </Text>
+    <Text>
+      <GUID>2143505192</GUID>
+      <Text>복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505193</GUID>
+      <Text>이것들은 분열을 일으키는 제안들이며, 그 중 일부는 두드러집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505194</GUID>
+      <Text>개혁 제안 - 복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505195</GUID>
+      <Text>공무원 지명</Text>
+    </Text>
+    <Text>
+      <GUID>2143505196</GUID>
+      <Text>지명된 인원</Text>
+    </Text>
+    <Text>
+      <GUID>2143505197</GUID>
+      <Text>부서</Text>
+    </Text>
+    <Text>
+      <GUID>2143505198</GUID>
+      <Text>관리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505199</GUID>
+      <Text>다양한 분야의 전문가를 지명해야 하는 경우가 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505200</GUID>
+      <Text>다음은 전문가 목록입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505201</GUID>
+      <Text>3명의 독특한 전문가</Text>
+    </Text>
+    <Text>
+      <GUID>2143505202</GUID>
+      <Text>관리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505203</GUID>
+      <Text>소방관, 교사 및 공무원.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505204</GUID>
+      <Text>관리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505205</GUID>
+      <Text>세관 사무소</Text>
+    </Text>
+    <Text>
+      <GUID>2143505206</GUID>
+      <Text>자신의 직업을 알고 있는 항만 관리.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505207</GUID>
+      <Text>세관 사무소</Text>
+    </Text>
+    <Text>
+      <GUID>2143505208</GUID>
+      <Text>생산력</Text>
+    </Text>
+    <Text>
+      <GUID>2143505209</GUID>
+      <Text>생산력</Text>
+    </Text>
+    <Text>
+      <GUID>2143505210</GUID>
+      <Text>농업 전문가, 장인 및 엔지니어</Text>
+    </Text>
+    <Text>
+      <GUID>2143505211</GUID>
+      <Text>귀사의 생산을 위한 전문가를 찾았습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505212</GUID>
+      <Text>3명의 독특한 전문가</Text>
+    </Text>
+    <Text>
+      <GUID>2143505213</GUID>
+      <Text>농업</Text>
+    </Text>
+    <Text>
+      <GUID>2143505214</GUID>
+      <Text>해당 분야의 농업 전문가. 당신의 농장은 잘 관리될 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505215</GUID>
+      <Text>농업</Text>
+    </Text>
+    <Text>
+      <GUID>2143505216</GUID>
+      <Text>산업</Text>
+    </Text>
+    <Text>
+      <GUID>2143505217</GUID>
+      <Text>당신을 도울 준비가 된 Magnates... 또는 그들의 영향.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505218</GUID>
+      <Text>산업</Text>
+    </Text>
+    <Text>
+      <GUID>2143505219</GUID>
+      <Text>장인</Text>
+    </Text>
+    <Text>
+      <GUID>2143505220</GUID>
+      <Text>요리사, 양장점 및 다른 분야의 전문가.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505221</GUID>
+      <Text>장인</Text>
+    </Text>
+    <Text>
+      <GUID>2143505222</GUID>
+      <Text>원료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505223</GUID>
+      <Text>광업 전문가. 땅과 그 부에는 그들에게 비밀이 없습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505224</GUID>
+      <Text>원료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505225</GUID>
+      <Text>복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505226</GUID>
+      <Text>복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505227</GUID>
+      <Text>마을의 상황을 바꾸기 위해 무엇이든 할 준비가 된 사람들.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505228</GUID>
+      <Text>국민의, 국민을 위한.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505229</GUID>
+      <Text>3명의 유니크 스페셜리스트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505230</GUID>
+      <Text>문화</Text>
+    </Text>
+    <Text>
+      <GUID>2143505231</GUID>
+      <Text>당신 민족의 문화 발전에 관련된 사람들 중 일부.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505232</GUID>
+      <Text>문화</Text>
+    </Text>
+    <Text>
+      <GUID>2143505233</GUID>
+      <Text>복지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505234</GUID>
+      <Text>공무원, 교사 및 매일 아침 일어나는 이유를 아는 다른 사람들.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505235</GUID>
+      <Text>복지</Text>
     </Text>
   </ModOp>
 </ModOps>
