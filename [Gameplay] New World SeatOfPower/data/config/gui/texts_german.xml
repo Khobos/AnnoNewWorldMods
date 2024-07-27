@@ -1,13 +1,368 @@
-
 <ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">    
+  <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505030</GUID>
-      <Text>Arts Fairs Act</Text>
+      <Text>Gesetz über Kunstmessen</Text>
     </Text>
     <Text>
       <GUID>2143505031</GUID>
-      <Text>"And so, that's why we need to include these works of art in our culture!"</Text>
+      <Text>"Und deshalb müssen wir diese Kunstwerke in unsere Kultur einbeziehen!"</Text>
+    </Text>
+    <Text>
+      <GUID>2143505146</GUID>
+      <Text>Aufrufen der Versammlung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505147</GUID>
+      <Text>Erlassene Richtlinien</Text>
+    </Text>
+    <Text>
+      <GUID>2143505148</GUID>
+      <Text>Texte verbreiten</Text>
+    </Text>
+    <Text>
+      <GUID>2143505149</GUID>
+      <Text>Zugang zum Palast</Text>
+    </Text>
+    <Text>
+      <GUID>2143505150</GUID>
+      <Text>Texte verbreiten</Text>
+    </Text>
+    <Text>
+      <GUID>2143505151</GUID>
+      <Text>Einige der verkündeten Texte und Dekrete. Du kannst sie in den Rathäusern offiziell machen, behalten oder verkaufen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505152</GUID>
+      <Text>Die Versammlung ist beendet, und die erlassenen Texte werden zur Verfügung gestellt.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505153</GUID>
+      <Text>Einzigartige promulgierte Texte je nach Abteilung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505154</GUID>
+      <Text>Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505155</GUID>
+      <Text>Steuern, Dekrete und andere Verwaltungsmaßnahmen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505156</GUID>
+      <Text>Verkündeter Text - Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505157</GUID>
+      <Text>Kultur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505158</GUID>
+      <Text>Broschüren, Flugblätter und verschiedene Plakate, die für Shows und Festivals in Ihrer Stadt werben.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505159</GUID>
+      <Text>Verkündeter Text - Kultur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505160</GUID>
+      <Text>Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505161</GUID>
+      <Text>Betriebs- und Regulierungsdokumente, Umweltschutz- und Sicherheitsmaßnahmen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505162</GUID>
+      <Text>Veröffentlichter Text - Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505163</GUID>
+      <Text>Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505164</GUID>
+      <Text>Einige Verbotsmaßnahmen, sanitäre Vorschläge, Stadtplanung und Frömmigkeit.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505165</GUID>
+      <Text>Verkündeter Text - Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505167</GUID>
+      <Text>Wahlrecht</Text>
+    </Text>
+    <Text>
+      <GUID>2143505168</GUID>
+      <Text>Gesetzgebung in ihrer reinsten Form... nach der Abstimmung.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505169</GUID>
+      <Text>Die Abstimmung in der Versammlung ist abgeschlossen, und die anzuwendenden Gesetze liegen nun vor.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505170</GUID>
+      <Text>Einzigartige Handlungen je nach Abteilung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505171</GUID>
+      <Text>Wahlrecht</Text>
+    </Text>
+    <Text>
+      <GUID>2143505172</GUID>
+      <Text>Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505173</GUID>
+      <Text>Gesetze in Bezug auf Steuern und öffentliche Ordnung.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505174</GUID>
+      <Text>Gesetze - Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505175</GUID>
+      <Text>Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505176</GUID>
+      <Text>Rechtsvorschriften in den Bereichen Industrie, Umweltverschmutzung oder Ökologie.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505177</GUID>
+      <Text>Apostelgeschichte - Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505178</GUID>
+      <Text>Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505179</GUID>
+      <Text>Gesetze, die im Herzen Ihrer Städte gelten... Im Guten wie im Schlechten.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505180</GUID>
+      <Text>Apostelgeschichte - Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505181</GUID>
+      <Text>Reformvorschläge</Text>
+    </Text>
+    <Text>
+      <GUID>2143505182</GUID>
+      <Text>Reformvorschläge</Text>
+    </Text>
+    <Text>
+      <GUID>2143505183</GUID>
+      <Text>Manche Denker und Industrielle wollen sich in das Leben ihrer Mitbürger einmischen und Reformen vorschlagen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505184</GUID>
+      <Text>Die Reformen wurden von der Mehrheit der Versammlung angenommen und sind nun anwendbar.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505185</GUID>
+      <Text>3 einzigartige Reformvorschläge je nach Abteilung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505186</GUID>
+      <Text>Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505187</GUID>
+      <Text>Philosophische Essays und eine andere ideologische Strömung.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505188</GUID>
+      <Text>Reformvorschläge - Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505189</GUID>
+      <Text>Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505190</GUID>
+      <Text>Drastische Veränderungen, um die industrielle Revolution zu erleichtern... während bei anderen Aspekten gespart wird.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505191</GUID>
+      <Text>Reformvorschläge - Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505192</GUID>
+      <Text>Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505193</GUID>
+      <Text>Dies sind umstrittene Vorschläge, von denen einige hervorstechen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505194</GUID>
+      <Text>Reformvorschläge - Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505195</GUID>
+      <Text>Beamte nominieren</Text>
+    </Text>
+    <Text>
+      <GUID>2143505196</GUID>
+      <Text>Nominiertes Personal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505197</GUID>
+      <Text>Abteilungen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505198</GUID>
+      <Text>Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505199</GUID>
+      <Text>Manchmal ist es notwendig, eine Reihe von Spezialisten in verschiedenen Bereichen zu nennen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505200</GUID>
+      <Text>Hier finden Sie eine Liste von Spezialisten</Text>
+    </Text>
+    <Text>
+      <GUID>2143505201</GUID>
+      <Text>3 einzigartige Spezialisten</Text>
+    </Text>
+    <Text>
+      <GUID>2143505202</GUID>
+      <Text>Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505203</GUID>
+      <Text>Feuerwehrleute, Lehrer und Beamte.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505204</GUID>
+      <Text>Verwaltung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505205</GUID>
+      <Text>Zollämter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505206</GUID>
+      <Text>Hafenbeamte, die ihren Job verstehen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505207</GUID>
+      <Text>Zollämter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505208</GUID>
+      <Text>Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505209</GUID>
+      <Text>Produktivität</Text>
+    </Text>
+    <Text>
+      <GUID>2143505210</GUID>
+      <Text>Landwirtschaftliche Fachkräfte, Handwerker und Ingenieure</Text>
+    </Text>
+    <Text>
+      <GUID>2143505211</GUID>
+      <Text>Sie haben die Experten für Ihre Produktion gefunden.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505212</GUID>
+      <Text>3 einzigartige Spezialisten</Text>
+    </Text>
+    <Text>
+      <GUID>2143505213</GUID>
+      <Text>Landwirtschaft</Text>
+    </Text>
+    <Text>
+      <GUID>2143505214</GUID>
+      <Text>Agrarexperten auf ihrem Gebiet. Ihre Höfe sind bei uns in guten Händen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505215</GUID>
+      <Text>Landwirtschaft</Text>
+    </Text>
+    <Text>
+      <GUID>2143505216</GUID>
+      <Text>Industrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505217</GUID>
+      <Text>Magnaten sind bereit, Ihnen zu helfen... oder deren Einfluss.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505218</GUID>
+      <Text>Industrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505219</GUID>
+      <Text>Kunstfertigkeit</Text>
+    </Text>
+    <Text>
+      <GUID>2143505220</GUID>
+      <Text>Köche, Schneiderinnen und Experten in anderen Bereichen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505221</GUID>
+      <Text>Kunstfertigkeit</Text>
+    </Text>
+    <Text>
+      <GUID>2143505222</GUID>
+      <Text>Rohstoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505223</GUID>
+      <Text>Experten für den Bergbau. Das Land und seine Reichtümer bergen für sie keine Geheimnisse.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505224</GUID>
+      <Text>Rohstoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505225</GUID>
+      <Text>Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505226</GUID>
+      <Text>Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505227</GUID>
+      <Text>Menschen, die bereit sind, alles zu tun, um die Situation in euren Städten zu verändern.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505228</GUID>
+      <Text>Menschen aus den Menschen, für die Menschen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505229</GUID>
+      <Text>3 einzigartige Spezialisten</Text>
+    </Text>
+    <Text>
+      <GUID>2143505230</GUID>
+      <Text>Kultur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505231</GUID>
+      <Text>Einige der Personen, die an der kulturellen Entwicklung Ihres Volkes beteiligt sind.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505232</GUID>
+      <Text>Kultur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505233</GUID>
+      <Text>Wohlfahrt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505234</GUID>
+      <Text>Beamte, Lehrer und andere Menschen, die wissen, warum sie jeden Morgen aufstehen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505235</GUID>
+      <Text>Wohlfahrt</Text>
     </Text>
   </ModOp>
 </ModOps>

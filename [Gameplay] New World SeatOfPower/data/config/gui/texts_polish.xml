@@ -1,13 +1,368 @@
-
 <ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">    
+  <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505030</GUID>
-      <Text>Arts Fairs Act</Text>
+      <Text>Ustawa o targach sztuki</Text>
     </Text>
     <Text>
       <GUID>2143505031</GUID>
-      <Text>"And so, that's why we need to include these works of art in our culture!"</Text>
+      <Text>"I dlatego musimy włączyć te dzieła sztuki do naszej kultury!"</Text>
+    </Text>
+    <Text>
+      <GUID>2143505146</GUID>
+      <Text>Zwoływanie Zgromadzenia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505147</GUID>
+      <Text>Edyktowane zasady</Text>
+    </Text>
+    <Text>
+      <GUID>2143505148</GUID>
+      <Text>Promulgowanie tekstów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505149</GUID>
+      <Text>Dojazd do Pałacu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505150</GUID>
+      <Text>Promulgowanie tekstów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505151</GUID>
+      <Text>Niektóre z promulgowanych tekstów i dekretów. Możesz uczynić je oficjalnymi w urzędach miejskich, zatrzymać je lub sprzedać.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505152</GUID>
+      <Text>Zgromadzenie zostało zakończone i uchwalone teksty są już dostępne.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505153</GUID>
+      <Text>Niepowtarzalne teksty promulgowane w zależności od działu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505154</GUID>
+      <Text>Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505155</GUID>
+      <Text>Podatki, dekrety i inne środki administracyjne.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505156</GUID>
+      <Text>Tekst ogłoszony - Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505157</GUID>
+      <Text>Kultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505158</GUID>
+      <Text>Ulotki, ulotki i różne plakaty promujące pokazy i festiwale w Twoim mieście.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505159</GUID>
+      <Text>Tekst ogłoszony - Kultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505160</GUID>
+      <Text>Produktywność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505161</GUID>
+      <Text>Dokumenty operacyjne i regulacyjne, środki zapobiegające zanieczyszczeniom i środki bezpieczeństwa.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505162</GUID>
+      <Text>Tekst ogłoszony - Produktywność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505163</GUID>
+      <Text>Zasiłek</Text>
+    </Text>
+    <Text>
+      <GUID>2143505164</GUID>
+      <Text>Jakieś środki zakazujące, propozycje sanitarne, urbanistyka i pobożność.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505165</GUID>
+      <Text>Tekst ogłoszony - Opieka społeczna</Text>
+    </Text>
+    <Text>
+      <GUID>2143505167</GUID>
+      <Text>Prawa wyborcze</Text>
+    </Text>
+    <Text>
+      <GUID>2143505168</GUID>
+      <Text>Prawodawstwo w najczystszej postaci... po głosowaniu.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505169</GUID>
+      <Text>Głosowanie w Zgromadzeniu zostało zakończone i ustawy, które mają być zastosowane, są już dostępne.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505170</GUID>
+      <Text>Unikalne akty w zależności od działu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505171</GUID>
+      <Text>Prawa wyborcze</Text>
+    </Text>
+    <Text>
+      <GUID>2143505172</GUID>
+      <Text>Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505173</GUID>
+      <Text>Przepisy dotyczące podatków i porządku publicznego.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505174</GUID>
+      <Text>Ustawy - Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505175</GUID>
+      <Text>Produktywność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505176</GUID>
+      <Text>Przepisy przemysłowe, antysmogowe lub antyekologiczne.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505177</GUID>
+      <Text>Akty - Produktywność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505178</GUID>
+      <Text>Zasiłek</Text>
+    </Text>
+    <Text>
+      <GUID>2143505179</GUID>
+      <Text>Prawa, które obowiązują w sercach Waszych miast i miasteczek... Na dobre i na złe.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505180</GUID>
+      <Text>Ustawy – opieka społeczna</Text>
+    </Text>
+    <Text>
+      <GUID>2143505181</GUID>
+      <Text>Propozycje reform</Text>
+    </Text>
+    <Text>
+      <GUID>2143505182</GUID>
+      <Text>Propozycje reform</Text>
+    </Text>
+    <Text>
+      <GUID>2143505183</GUID>
+      <Text>Niektórzy myśliciele i przemysłowcy chcą zaangażować się w życie swoich współobywateli i proponować reformy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505184</GUID>
+      <Text>Reformy zostały przyjęte przez większość Zgromadzenia i obecnie obowiązują w praktyce.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505185</GUID>
+      <Text>3 unikalne propozycje reform w zależności od departamentu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505186</GUID>
+      <Text>Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505187</GUID>
+      <Text>Eseje filozoficzne i inny nurt ideologiczny.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505188</GUID>
+      <Text>Propozycje reform - Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505189</GUID>
+      <Text>Produktywność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505190</GUID>
+      <Text>Drastyczne zmiany ułatwiające rewolucję przemysłową... jednocześnie pomijając inne aspekty.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505191</GUID>
+      <Text>Propozycje reform – Wydajność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505192</GUID>
+      <Text>Zasiłek</Text>
+    </Text>
+    <Text>
+      <GUID>2143505193</GUID>
+      <Text>Są to propozycje, które wprowadzają podziały, a niektóre z nich wyróżniają się na tle innych.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505194</GUID>
+      <Text>Propozycje reform – opieka społeczna</Text>
+    </Text>
+    <Text>
+      <GUID>2143505195</GUID>
+      <Text>Mianowanie urzędników</Text>
+    </Text>
+    <Text>
+      <GUID>2143505196</GUID>
+      <Text>Nominowany personel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505197</GUID>
+      <Text>Działów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505198</GUID>
+      <Text>Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505199</GUID>
+      <Text>Niekiedy konieczne jest wymienienie kilku specjalistów z różnych sektorów.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505200</GUID>
+      <Text>Oto lista specjalistów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505201</GUID>
+      <Text>3 unikalnych specjalistów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505202</GUID>
+      <Text>Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505203</GUID>
+      <Text>Strażacy, nauczyciele i urzędnicy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505204</GUID>
+      <Text>Administracja</Text>
+    </Text>
+    <Text>
+      <GUID>2143505205</GUID>
+      <Text>Biura celne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505206</GUID>
+      <Text>Oficerowie portowi, którzy znają się na swojej robocie.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505207</GUID>
+      <Text>Biura celne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505208</GUID>
+      <Text>Produktywność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505209</GUID>
+      <Text>Produktywność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505210</GUID>
+      <Text>Specjaliści rolni, rzemieślnicy i inżynierowie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505211</GUID>
+      <Text>Znalazłeś ekspertów dla swojej produkcji.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505212</GUID>
+      <Text>3 unikalnych specjalistów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505213</GUID>
+      <Text>Rolnictwo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505214</GUID>
+      <Text>Eksperci rolni w swoich dziedzinach. Twoje gospodarstwa będą w dobrych rękach.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505215</GUID>
+      <Text>Rolnictwo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505216</GUID>
+      <Text>Przemysł</Text>
+    </Text>
+    <Text>
+      <GUID>2143505217</GUID>
+      <Text>Magnaci gotowi Ci pomóc... lub ich wpływu.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505218</GUID>
+      <Text>Przemysł</Text>
+    </Text>
+    <Text>
+      <GUID>2143505219</GUID>
+      <Text>Rzemiosła</Text>
+    </Text>
+    <Text>
+      <GUID>2143505220</GUID>
+      <Text>Kucharze, krawcowe i eksperci z innych dziedzin.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505221</GUID>
+      <Text>Rzemiosła</Text>
+    </Text>
+    <Text>
+      <GUID>2143505222</GUID>
+      <Text>Surowiec</Text>
+    </Text>
+    <Text>
+      <GUID>2143505223</GUID>
+      <Text>Eksperci ds. górnictwa. Ziemia i jej bogactwa nie mają przed nimi tajemnic.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505224</GUID>
+      <Text>Surowiec</Text>
+    </Text>
+    <Text>
+      <GUID>2143505225</GUID>
+      <Text>Zasiłek</Text>
+    </Text>
+    <Text>
+      <GUID>2143505226</GUID>
+      <Text>Zasiłek</Text>
+    </Text>
+    <Text>
+      <GUID>2143505227</GUID>
+      <Text>Ludzi gotowych zrobić wszystko, aby zmienić sytuację w Waszych miastach.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505228</GUID>
+      <Text>Ludzie z ludu, dla ludzi.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505229</GUID>
+      <Text>3 wyjątkowych specjalistów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505230</GUID>
+      <Text>Kultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505231</GUID>
+      <Text>Niektóre z osób zaangażowanych w rozwój kulturalny waszego ludu.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505232</GUID>
+      <Text>Kultura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505233</GUID>
+      <Text>Zasiłek</Text>
+    </Text>
+    <Text>
+      <GUID>2143505234</GUID>
+      <Text>Urzędnicy, nauczyciele i inni ludzie, którzy wiedzą, dlaczego wstają każdego ranka.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505235</GUID>
+      <Text>Zasiłek</Text>
     </Text>
   </ModOp>
 </ModOps>
