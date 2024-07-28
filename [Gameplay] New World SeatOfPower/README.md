@@ -16,10 +16,8 @@ In addition, a specific palace has been added in the New World to make this regi
 
 ## Known Issues
 
-- The NW ministry interface always shows information relating to the OW. **Rely on the effects which will be indicated in the town halls, trades unions, harbour master's offices, residences and public buildings. It is not possible to modify it for technical reasons. **If you want to have the changes outside the game, refer to this [part](../docs/decrees.md).**
+- The NW ministry interface always shows information relating to the OW. Rely on the effects which will be indicated in the town halls, trades unions, harbour master's offices, residences and public buildings. It is not possible to modify it for technical reasons. **If you want to have the changes outside the game, refer to this [part](../docs/decrees.md).**
 - The `Cultural Outreach Act` decree will be of no use in this region at the moment.
-- The `Art Fairs Act` does not provide influence for obreros at the moment.
-- The passive productivity deparment effect has currently an issue.
 
 ## Compatibility
 Fully compatible with:
