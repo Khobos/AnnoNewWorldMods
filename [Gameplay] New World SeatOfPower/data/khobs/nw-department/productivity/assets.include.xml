@@ -1,6 +1,6 @@
 <ModOps>
   <!-- Passive productivity buff -->
-  <ModOp GUID="249965" Type="add" Path="/Values/ItemEffect/EffectTargets">
+  <ModOp GUID="249965,269492,269493,269494,269495,269496,269497,269498,269499,269500,269501,269701,269702,269703,269704,269705,269706,269707,269708,269709,269710,269711,269712,269713,269714,269715" Type="add" Path="/Values/ItemEffect/EffectTargets">
     <Item>
       <GUID>193990</GUID>
     </Item>
