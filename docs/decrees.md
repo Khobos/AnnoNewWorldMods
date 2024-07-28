@@ -23,7 +23,7 @@ Department Effect: +50 NW Island Workforce per Town Hall
 
 <img src="./icons/icon_age_of_reason_0.png" width="32" /> **Science Fairs Act**
 - Replaced with
-<img src="./icons/icon_age_of_art.png" width="32" /> in Town Halls: **Arts Fairs Act**
+<img src="./icons/icon_age_of_art.png" width="32" /> in New World Town Halls: **Arts Fairs Act**
 - +1 influence for Obreros Residences
 
 <img src="./icons/icon_town_hall_extension_0.png" width="32" /> **Open Mind Act**: Same effect than Moderate regions
