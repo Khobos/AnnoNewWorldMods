@@ -2348,6 +2348,14 @@
 
   <!-- START - Arts Fairs Act -->
   <Group>
+    <!-- SET Influence Source to Obrero Residence -->
+    <ModOp GUID='101255' Type="merge" Path="/Values/">
+      <InfluenceSource>
+        <InfluenceSource>Culture</InfluenceSource>
+      </InfluenceSource>
+    </ModOp>
+    <!-- END SET Influence -->
+
     <!-- SET Science Fairs Act only for OW -->
     <ModOp GUID="269128" Type="replace" Path="/Values/ItemEffect/EffectTargets/">
       <Item>
