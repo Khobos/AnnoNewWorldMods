@@ -9,19 +9,19 @@ Department Effect: +50 NW Island Workforce per Town Hall
 <img src="./icons/icon_sustainable_eating_0.png" width="32" /> **Dietary Education Initiative**:
 
 - Reduce consumption by 30% of the following goods:
-<div>
-  <img src="./icons/icon_fried_bananas_0.png" width="32" />
-  <img src="./icons/icon_burrito_0.png" width="32" />
-  <img src="./icons/icon_jalea_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_fried_bananas_0.png" width="32" />
+    <img src="./icons/icon_burrito_0.png" width="32" />
+    <img src="./icons/icon_jalea_0.png" width="32" />
+  </div>
 - If you have Jakob's New World Cities Installed: 
-<div>
-  <img src="./icons/icon_bread_0.png" width="32" />
-  <img src="./icons/icon_sheep_cheese_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_bread_0.png" width="32" />
+    <img src="./icons/icon_sheep_cheese_0.png" width="32" />
+  </div>
 
 
-<img src="./icons/icon_age_of_reason_0.png" width="32" /> **Science Fairs Act**:
+<img src="./icons/icon_age_of_reason_0.png" width="32" /> **Science Fairs Act**
 - Replaced with
 <img src="./icons/icon_age_of_art.png" width="32" /> in Town Halls: **Arts Fairs Act**
 - +1 influence for Obreros Residences
@@ -51,54 +51,59 @@ Department Effect: +10% Productivity for New World Production Buildings within r
 
 <img src="./icons/icon_agricultural_subsidy_0.png" width="32" /> **Land Reform Act**: 
 - Provide extra goods from farms (check guildhouse/farms for more details). Includes: 
-<div>
-  <img src="./icons/icon_banana_0.png" width="32" />
-  <img src="./icons/icon_cane_sugar_1_0.png" width="32" />
-  <img src="./icons/icon_caoutchouc_0.png" width="32" />
-  <img src="./icons/icon_cotton_0.png" width="32" />
-  <img src="./icons/icon_alpaca_wool_0.png" width="32" />
-  <img src="./icons/icon_corn_0.png" width="32" />
-  <img src="./icons/icon_cocoa_0.png" width="32" />
-  <img src="./icons/icon_coffee_beans_0.png" width="32" />
-  <img src="./icons/icon_tobacco_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_banana_0.png" width="32" />
+    <img src="./icons/icon_cane_sugar_1_0.png" width="32" />
+    <img src="./icons/icon_caoutchouc_0.png" width="32" />
+    <img src="./icons/icon_cotton_0.png" width="32" />
+    <img src="./icons/icon_alpaca_wool_0.png" width="32" />
+    <img src="./icons/icon_corn_0.png" width="32" />
+    <img src="./icons/icon_cocoa_0.png" width="32" />
+    <img src="./icons/icon_coffee_beans_0.png" width="32" />
+    <img src="./icons/icon_tobacco_0.png" width="32" />
+  </div>
 - If you have `Seed Of Change` DLC
-<div>
-  <img src="./icons/icon_spices_1.png" width="32" />
-  <img src="./icons/icon_potatoes_0.png" width="32" />
-  <img src="./icons/icon_cereals_2_0.png" width="32" />
-</div>
-- If you have `New World Rising` DLC <img src="./icons/icon_sheep_milk_0.png" width="32" />
-<div>
-  <img src="./icons/icon_orchid_0.png" width="32" />
-  <img src="./icons/icon_herbs_with_flower_0.png" width="32" />
-  <img src="./icons/icon_nandu_feathers_0.png" width="32" />
-  <img src="./icons/icon_nandu_leather_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_spices_1.png" width="32" />
+    <img src="./icons/icon_potatoes_0.png" width="32" />
+    <img src="./icons/icon_cereals_2_0.png" width="32" />
+  </div>
+- If you have `New World Rising` DLC 
+  <div>
+    <img src="./icons/icon_sheep_milk_0.png" width="32" />
+    <img src="./icons/icon_orchid_0.png" width="32" />
+    <img src="./icons/icon_herbs_with_flower_0.png" width="32" />
+    <img src="./icons/icon_nandu_feathers_0.png" width="32" />
+    <img src="./icons/icon_nandu_leather_0.png" width="32" />
+  </div>
+
 
 <img src="./icons/icon_manufacturing_reform_0.png" width="32" /> **Skilled Labour Act**: 
 - Provide extra goods from heavy factories (check guildhouse/factories for more details). Includes: 
-<div>
-  <img src="./icons/icon_coal_0.png" width="32" />
-  <img src="./icons/icon_oil_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_coal_0.png" width="32" />
+    <img src="./icons/icon_oil_0.png" width="32" />
+  </div>
 - If you have `High Life` DLC
-<div>
-  <img src="./icons/icon_celluloid_0.png" width="32" />
-  <img src="./icons/icon_bubble_gum_0.png" width="32" />
-  <img src="./icons/icon_ethanol_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_celluloid_0.png" width="32" />
+    <img src="./icons/icon_bubble_gum_0.png" width="32" />
+    <img src="./icons/icon_ethanol_0.png" width="32" />
+  </div>
 - If you have `New World Rising` DLC 
-<div>
-  <img src="./icons/icon_helium_0.png" width="32" />
-  <img src="./icons/icon_ventilator_0.png" width="32" />
-  <img src="./icons/icon_scooter_0.png" width="32" />
-  <img src="./icons/icon_steel_0.png" width="32" />
-  <img src="./icons/icon_motor_0.png" width="32" />
-  <img src="./icons/icon_film_role_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_helium_0.png" width="32" />
+    <img src="./icons/icon_ventilator_0.png" width="32" />
+    <img src="./icons/icon_scooter_0.png" width="32" />
+    <img src="./icons/icon_steel_0.png" width="32" />
+    <img src="./icons/icon_motor_0.png" width="32" />
+    <img src="./icons/icon_film_role_0.png" width="32" />
+  </div>
 - If you have `Jakob's New World Cities` Mod
-<img src="./icons/icon_beams_0.png" width="32" />
+  <div>
+    <img src="./icons/icon_steel_0.png" width="32" />
+    <img src="./icons/icon_beams_0.png" width="32" />
+  </div>
 
 <img src="./icons/icon_efficiency_program_0.png" width="32" /> **Galvanic Grants Act**: Same effect than Moderate regions 
 
@@ -125,23 +130,25 @@ Department Effect: +10 area of influence for all Public Building
 - If you have `New World Rising` DLC: +`Electricity`, `Cinema`, `Samba School` and `Beach`
 
 <img src="./icons/icon_common_spirits_act_0.png" width="32" /> **Late Licence Act**:
+
 - Reduce consumption by 20% of the following goods:
   <div>
-  <img src="./icons/icon_rum_barrel_0.png" width="32" />
-  <img src="./icons/icon_coffe_cup_0.png" width="32" />
-  <img src="./icons/icon_beer_0.png" width="32" />
-</div>
+    <img src="./icons/icon_rum_barrel_0.png" width="32" />
+    <img src="./icons/icon_coffe_cup_0.png" width="32" />
+    <img src="./icons/icon_beer_0.png" width="32" />
+  </div>
 - If you have `Seed Of Change` DLC: 
   <div>
-  <img src="./icons/icon_schnapps_4_0.png" width="32" />
-  <img src="./icons/icon_atole_0.png" width="32" />
-  <img src="./icons/icon_tabasco_sauce_0.png" width="32" />
-</div>
+    <img src="./icons/icon_schnapps_4_0.png" width="32" />
+    <img src="./icons/icon_atole_0.png" width="32" />
+    <img src="./icons/icon_tabasco_sauce_0.png" width="32" />
+  </div>
+
 - If you have `New World Rising` DLC: 
-<div>
-  <img src="./icons/icon_mezcal_0.png" width="32" />
-  <img src="./icons/icon_champagne_0.png" width="32" />
-</div>
+  <div>
+    <img src="./icons/icon_mezcal_0.png" width="32" />
+    <img src="./icons/icon_champagne_0.png" width="32" />
+  </div>
 
 <img src="./icons/emo_trade_department.png" width="32" /> **Department of Trade**
 -
