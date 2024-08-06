@@ -242,7 +242,7 @@
               <Event>2143505225</Event>
             </Item>
           </Events>
-          <CategoryBackground>data/ui/2kimages/main/assets/research_centre/bg_card_talentdeveloptment.png</CategoryBackground>
+          <CategoryBackground>data/modgraphics/ui/assets/bg_card_talentdeveloptment.png</CategoryBackground>
           <SizeSelectionBackground>data/graphics/ui/assets/monument_event/monument_event_architecture.png</SizeSelectionBackground>
         </MonumentEventCategory>
       </Values>
