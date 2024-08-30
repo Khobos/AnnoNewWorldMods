@@ -2357,7 +2357,7 @@
     <!-- END SET Influence -->
 
     <!-- SET Science Fairs Act only for OW -->
-    <ModOp GUID="269128" Type="replace" Path="/Values/ItemEffect/EffectTargets/">
+    <ModOp GUID="269128" Type="replace" Path="/Values/ItemEffect/EffectTargets/Item">
       <Item>
         <GUID>100415</GUID>
       </Item>
@@ -2387,7 +2387,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>190781</GUID>
+                <GUID>101285</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
