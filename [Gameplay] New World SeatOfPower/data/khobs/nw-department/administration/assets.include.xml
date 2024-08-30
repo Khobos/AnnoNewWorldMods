@@ -2391,9 +2391,6 @@
               </Item>
             </EffectTargets>
           </ItemEffect>
-          <Text>
-            <TextOverride>269128</TextOverride>
-          </Text>
           <EffectForward>
             <ForwardEffect>2143505030</ForwardEffect>
             <ForwardEffectRange>20</ForwardEffectRange>
@@ -2421,9 +2418,6 @@
               </Item>
             </EffectTargets>
           </ItemEffect>
-          <Text>
-            <TextOverride>269128</TextOverride>
-          </Text>
           <BuildingUpgrade />
           <Buff />
           <PopulationUpgrade />
