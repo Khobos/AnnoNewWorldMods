@@ -132,9 +132,9 @@
         <FeedbackController />
         <Infolayer />
         <FactoryBase />
-        <!-- <LogisticNode>
-          <TransporterCountMax>2</TransporterCountMax>
-        </LogisticNode> -->
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
         <Monument>
           <MonumentEventsCategories>
             <Item>
