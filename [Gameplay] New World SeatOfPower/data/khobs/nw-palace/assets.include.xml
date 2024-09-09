@@ -152,6 +152,14 @@
           </BackgroundImage>
           <ProgressbarHeight>150</ProgressbarHeight>
           <AccessEventText>2143505149</AccessEventText>
+          <EventUITexts>
+            <MissingElectricityDescription>6750</MissingElectricityDescription>
+            <SelectEventTheme>2143505237</SelectEventTheme>
+            <SelectEventSize>2143505238</SelectEventSize>
+            <RewardHeader>2143505239</RewardHeader>
+            <EventConclusionText>2143505240</EventConclusionText>
+            <InvestmentContribution>2143505241</InvestmentContribution>
+        </EventUITexts>
         </Monument>
         <Culture>
           <CultureType>Monument</CultureType>
@@ -2171,6 +2179,53 @@
         </Standard>
       </Values>
     </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505237</GUID>
+          <Name>SelectEventTheme Text</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505238</GUID>
+          <Name>SelectEventSize Text</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505239</GUID>
+          <Name>RewardHeader Text</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505240</GUID>
+          <Name>EventConclusionText Text</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505241</GUID>
+          <Name>InvestmentContribution Text</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    
+    
 
     <Asset>
       <Template>Text</Template>

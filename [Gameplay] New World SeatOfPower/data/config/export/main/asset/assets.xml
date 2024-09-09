@@ -235,6 +235,11 @@ TEXT ASSETS
 2143505228 - Departments - Welfare - RewardText - Text
 2143505229 - Departments - Welfare - PotentialEventReward - Text
 2143505234 - Departments - Welfare Public Description - Text
+2143505237 - Monument SelectEventTheme - Text
+2143505238 - Monument SelectEventSize - Text
+2143505239 - Monument RewardHeader - Text
+2143505240 - Monument EventConclusionText - Text
+2143505241 - Monument InvestmentContribution - Text
 
 REWARD POOL
 ###########
