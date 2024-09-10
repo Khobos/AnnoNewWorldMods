@@ -363,6 +363,26 @@
     <Text>
       <GUID>2143505235</GUID>
       <Text>Santé</Text>
+    </Text>    
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>Établir une politique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>Sujet politique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>Politiques disponibles</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>Votre gouvernement a présenté les résultats de ses travaux</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>Députés votants</Text>
     </Text>
   </ModOp>
 </ModOps>

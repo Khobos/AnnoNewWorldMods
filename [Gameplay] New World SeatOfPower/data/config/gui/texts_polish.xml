@@ -364,5 +364,25 @@
       <GUID>2143505235</GUID>
       <Text>Zasiłek</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>Wybierz ustawę</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>Wybierz typ ustawy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>Ustawy możliwe do nabycia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>Twojemu rządowi udało się uchwalić następujące rozporządzenia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>Pewność ministrów</Text>
+    </Text>
   </ModOp>
 </ModOps>

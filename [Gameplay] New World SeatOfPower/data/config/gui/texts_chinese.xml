@@ -364,5 +364,25 @@
       <GUID>2143505235</GUID>
       <Text>福利</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>选择一项法令</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>选择一项法令</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>潜在收益</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>您的政府已设法完成了以下法令的编制</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>法令制定成功率</Text>
+    </Text>
   </ModOp>
 </ModOps>

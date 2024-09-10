@@ -364,5 +364,25 @@
       <GUID>2143505235</GUID>
       <Text>福祉</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>法令を選択してください</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>法令を選択してください</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>可決可能な法令</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>あなたの政府は以下の法令を可決できました</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>投票した議員</Text>
+    </Text> 
   </ModOp>
 </ModOps>

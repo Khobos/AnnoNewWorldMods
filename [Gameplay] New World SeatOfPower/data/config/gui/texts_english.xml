@@ -365,5 +365,25 @@
       <GUID>2143505235</GUID>
       <Text>Welfare</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>Select meeting type</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>Political Topics</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>Obtainable policies</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>Your government has presented the results of its work</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>Confident deputies</Text>
+    </Text>
   </ModOp>
 </ModOps>

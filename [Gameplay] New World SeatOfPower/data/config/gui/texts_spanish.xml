@@ -364,5 +364,25 @@
       <GUID>2143505235</GUID>
       <Text>Bienestar</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>Elija una política</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>Elija una política</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>Políticas obtenibles</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>Su gobierno ha logrado obtener las siguientes concesiones</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>Diputados confiados</Text>
+    </Text>
   </ModOp>
 </ModOps>

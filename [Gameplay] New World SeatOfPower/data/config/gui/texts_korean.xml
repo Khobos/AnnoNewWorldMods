@@ -364,5 +364,25 @@
       <GUID>2143505235</GUID>
       <Text>복지</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>정책 선택</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>정책 선택</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>얻을 수 있는 정책</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>귀 정부는 다음과 같은 양보를 확보하는 데 성공했습니다</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>자신감 넘치는 대리인</Text>
+    </Text>
   </ModOp>
 </ModOps>

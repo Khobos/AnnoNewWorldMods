@@ -364,5 +364,25 @@
       <GUID>2143505235</GUID>
       <Text>Benessere</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>Scegli un criterio</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>Scegli un criterio</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>Politiche ottenibili</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>Il suo governo è riuscito ad ottenere le seguenti concessioni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>Deputati fiduciosi</Text>
+    </Text>
   </ModOp>
 </ModOps>

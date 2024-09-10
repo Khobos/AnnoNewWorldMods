@@ -364,5 +364,25 @@
       <GUID>2143505235</GUID>
       <Text>Благосостояние</Text>
     </Text>
+    <Text>
+      <GUID>2143505237</GUID>
+      <Text>Выберите тип заседания</Text>
+    </Text>
+    <Text>
+      <GUID>2143505238</GUID>
+      <Text>Политические темы</Text>
+    </Text>
+    <Text>
+      <GUID>2143505239</GUID>
+      <Text>Доступные Акты</Text>
+    </Text>
+    <Text>
+      <GUID>2143505240</GUID>
+      <Text>Ваше правительство представило результаты своей работы:</Text>
+    </Text>
+    <Text>
+      <GUID>2143505241</GUID>
+      <Text>Проголосовавшие депутаты</Text>
+    </Text>
   </ModOp>
 </ModOps>
