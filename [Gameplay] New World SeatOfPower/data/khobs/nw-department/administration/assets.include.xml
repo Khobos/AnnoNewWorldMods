@@ -1901,9 +1901,11 @@
   <Group>
     <!-- SET OW BUFF ONLY FOR OW REGIONS -->
     <ModOp GUID="273695" Type="replace" Path="/Values/ItemEffect/EffectTargets/">
-      <Item>
-        <GUID>100415</GUID>
-      </Item>
+      <EffectTargets>
+        <Item>
+          <GUID>100415</GUID>
+        </Item>
+      </EffectTargets>
     </ModOp>
     <!-- END EDIT -->
 
