@@ -1897,18 +1897,17 @@
     <!--END  -->
   </Group>
 
+  <!-- Vanilla Tweaks -->
+  <!-- SET Science Fairs Act only for OW -->
+  <ModOp GUID="273695,269128" Type="replace" Path="/Values/ItemEffect/EffectTargets/Item">
+   <Item>
+      <GUID>100415</GUID>
+    </Item>
+  </ModOp>
+  <!-- END SET -->
+
   <!-- START - Dietary Education Initiative -->
   <Group>
-    <!-- SET OW BUFF ONLY FOR OW REGIONS -->
-    <ModOp GUID="273695" Type="replace" Path="/Values/ItemEffect/EffectTargets/">
-      <EffectTargets>
-        <Item>
-          <GUID>100415</GUID>
-        </Item>
-      </EffectTargets>
-    </ModOp>
-    <!-- END EDIT -->
-
     <!-- START ADD BUFFS - Dietary Education Initiative (City_Decree2) -->
     <ModOp GUID="273691" Type="add" Path="/Values/EffectContainer/Effects/">
       <Item>
@@ -2356,15 +2355,7 @@
         <InfluenceSource>Culture</InfluenceSource>
       </InfluenceSource>
     </ModOp>
-    <!-- END SET Influence -->
-
-    <!-- SET Science Fairs Act only for OW -->
-    <ModOp GUID="269128" Type="replace" Path="/Values/ItemEffect/EffectTargets/Item">
-      <Item>
-        <GUID>100415</GUID>
-      </Item>
-    </ModOp>
-    <!-- END SET -->
+    <!-- END SET Influence -->   
 
     <!-- START ADD BUFFS - ARTS FAIRS ACT (City_Decree3) -->
     <ModOp GUID="269174" Type="add" Path="/Values/EffectContainer/Effects/">
